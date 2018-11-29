@@ -1,1 +1,1 @@
-# HIVE_metagenomics
+# HIVE metagenomics
