@@ -1,0 +1,1120 @@
+{
+    "_id": "type.17",
+    "name": "svc-align-hexagon",
+    "title": "HIVE-Hexagon",
+    "is_user": true,
+    "description": "HIVE hexagon alignment engine optimized for HIVE cloud performance on Next Generation data",
+    "_parents": [ "svc-align-dnaseq" ],
+    "_children": [ "svc-align-hexagon-batch", "svc-cvm-1" ],
+    "_attributes": {
+        "name": {
+            "type": "string",
+            "title": "Name",
+            "description": "Provide an identifiable name for the process.",
+            "order": -100,
+            "is_readonly": false,
+            "is_summary": true,
+            "brief": "$_(v)",
+            "_definer_type": "process"
+        },
+        "_brief": {
+            "type": "string",
+            "title": "Summary",
+            "order": 0,
+            "is_readonly": true,
+            "is_hidden": true,
+            "is_virtual": true
+        },
+        "_dir": {
+            "type": "string",
+            "title": "Location",
+            "order": 0,
+            "is_readonly": true,
+            "is_multi": true,
+            "is_flattened_multi": true,
+            "is_hidden": true,
+            "is_virtual": true
+        },
+        "_parent": {
+            "type": "obj",
+            "title": "Parent object",
+            "order": 0,
+            "is_readonly": true,
+            "is_multi": true,
+            "is_flattened_multi": true,
+            "is_hidden": true,
+            "is_virtual": true
+        },
+        "_perm": {
+            "type": "string",
+            "title": "Permissions",
+            "order": 0,
+            "is_readonly": true,
+            "is_multi": true,
+            "is_flattened_multi": true,
+            "is_hidden": true,
+            "is_virtual": true
+        },
+        "_type": {
+            "type": "string",
+            "title": "Type name",
+            "order": 0,
+            "is_readonly": true,
+            "is_hidden": true,
+            "is_virtual": true
+        },
+        "advancedParam": {
+            "type": "list",
+            "title": "Advanced Parameters",
+            "description": "group",
+            "order": 0,
+            "is_readonly": false,
+            "is_flattened_decor": true,
+            "_children": {
+                "alignmentEngine": {
+                    "type": "integer",
+                    "default_value": "1",
+                    "title": "Optimal Alignment Search",
+                    "description": "Decide if you want to perform complete best optimal alignment with Smith Waterman or just quick lookup of a highly scoring potential hit",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "choice",
+                    "constraint_data": "0///Only Identities|1///Smith-Waterman"
+                },
+                "computeDiagonalWidth": {
+                    "type": "string",
+                    "default_value": "auto",
+                    "title": "Width of Intelligent Diagonal",
+                    "description": "Specify the width around the Smith-Waterman matrix diagonal to increase computation speed. Windows too narrow will result in significantly faster computation but may miss actual gapped alignments. ",
+                    "order": 0,
+                    "is_readonly": false
+                },
+                "hashCompileStp": {
+                    "type": "string",
+                    "default_value": "auto",
+                    "title": "Intelligent K-mer Jump in Reference",
+                    "description": "Seeding in large genomes significantly improves the alignment speed, but can decrease the sensitivity. Choose \"1\" to optimize sensitivity.",
+                    "order": 0,
+                    "is_readonly": false
+                },
+                "hashStp": {
+                    "type": "string",
+                    "default_value": "auto",
+                    "title": "Intelligent K-mer Jump in Read",
+                    "description": "Seeding improves overall alignment speed at a potential tradeoff of lost sensitivity. Choose \"1\" to optimize sensitivity.",
+                    "order": 0,
+                    "is_readonly": false
+                },
+                "isbackward": {
+                    "type": "integer",
+                    "default_value": "1",
+                    "title": "Alignment Directionality",
+                    "description": "Defines wether alignments are searched in a unidirectional (forward or reverse) or bi-directional (forward and reverse) orientation",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "choice",
+                    "constraint_data": "0///Forward|2///Reverse complement|1///Bi-directional"
+                },
+                "isextendtails": {
+                    "type": "integer",
+                    "default_value": "0",
+                    "title": "Alignment Tail Extension",
+                    "description": "If extended mode is selected, the alignment length will be maximized as long as the extension is accompanied by a good score. In compact mode, only the highest scoring local alignment is reported.",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "choice",
+                    "constraint_data": "0///Conservative Compact|1///Agressive Extended"
+                },
+                "isoptimize": {
+                    "type": "integer",
+                    "default_value": "1",
+                    "title": "Intellegent Diagonal ",
+                    "description": "Smith-Waterman optimizations",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "choice",
+                    "constraint_data": "0///Complete matrix|1///Diagonal of a given size"
+                },
+                "looseExtenderMinimumLengthPercent": {
+                    "type": "integer",
+                    "default_value": "66",
+                    "title": "K-mer Extension Minimal Length Percent",
+                    "description": "Defines the minimum length of extension, as a percentage of seed length, required to proceed with Smith-Waterman.",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "eval",
+                    "constraint_data": "!isNaN(\"$_(val)\")",
+                    "constraint_description": "Give a Number"
+                },
+                "looseExtenderMismatchesPercent": {
+                    "type": "integer",
+                    "default_value": "25",
+                    "title": "K-mer Extension Mismatch Allowance Percent",
+                    "description": "Defines the maximum mismatch, as a percentage of seed length, allowed in order to progress to Smith-Waterman.",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "eval",
+                    "constraint_data": "!(isNaN(\"$_(val)\"))",
+                    "constraint_description": "Give a Number"
+                },
+                "maxExtensionGaps": {
+                    "type": "integer",
+                    "default_value": "0",
+                    "title": "Allowed number of gaps during extension",
+                    "description": "The number of cumulative insertions and deletions allowed during seed extension.",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "eval",
+                    "constraint_data": "!isNaN(\"$_(val)\")",
+                    "constraint_description": "Give a Number"
+                },
+                "maxHashBin": {
+                    "type": "integer",
+                    "default_value": "50",
+                    "title": "Over-represented K-Mer suppression",
+                    "description": "Some K-mers are repeated much more frequently than would be expected by random occurrence. The aligner will only try to seed up to the specified number of any given K-mer hits.",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "eval",
+                    "constraint_data": "!(isNaN(\"$_(val)\"))",
+                    "constraint_description": "Give a Number"
+                },
+                "reverseEngine": {
+                    "type": "integer",
+                    "default_value": "0",
+                    "title": "Genome Size",
+                    "description": "Decide if you want to perform complete best optimal alignment with Smith Watermann or just quick lookup of a highly scoring potential hit",
+                    "order": 0,
+                    "is_readonly": false,
+                    "is_hidden": true,
+                    "constraint": "choice",
+                    "constraint_data": "0///Small genomes|1///Large genomes"
+                },
+                "selfQueryPosJumpInNonPerfectAlignment": {
+                    "type": "integer",
+                    "default_value": "1",
+                    "title": "Self overlapping seed matches",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "choice",
+                    "constraint_data": "0///Consider Overlapping Seed Matches|1///Ignore Overlaping Seed Matches"
+                },
+                "useRedundSim": {
+                    "type": "integer",
+                    "default_value": "1",
+                    "title": "Use Read Self Similarity",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "choice",
+                    "constraint_data": "0///Do not use read self similarity optimization|1///Use self similarity optimization"
+                }
+            }
+        },
+        "alignParam": {
+            "type": "list",
+            "title": "Alignment Parameters",
+            "description": "group",
+            "order": 0,
+            "is_readonly": false,
+            "is_flattened_decor": true,
+            "_children": {
+                "allowShorterEnds": {
+                    "type": "integer",
+                    "default_value": "0",
+                    "title": "Shorter Terminus Alignment",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "eval",
+                    "constraint_data": "!isNaN(\"$_(val)\")",
+                    "constraint_description": "Give a Number"
+                },
+                "costGapNext": {
+                    "type": "integer",
+                    "default_value": "-4",
+                    "title": "Gap Continuation Cost",
+                    "description": "Gap next cost",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "eval",
+                    "constraint_data": "!isNaN(\"$_(val)\")",
+                    "constraint_description": "Give a Number"
+                },
+                "costGapOpen": {
+                    "type": "integer",
+                    "default_value": "-12",
+                    "title": "Gap Opening Cost",
+                    "description": "Gap open cost",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "eval",
+                    "constraint_data": "!isNaN(\"$_(val)\")",
+                    "constraint_description": "Give a Number"
+                },
+                "costMatch": {
+                    "type": "integer",
+                    "default_value": "5",
+                    "title": "Match Benefit",
+                    "description": "Match cost",
+                    "order": 0,
+                    "is_readonly": false
+                },
+                "costMismatch": {
+                    "type": "integer",
+                    "default_value": "-4",
+                    "title": "Mismatch Penalty",
+                    "description": "Mismatch cost",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "eval",
+                    "constraint_data": "!isNaN(\"$_(val)\")",
+                    "constraint_description": "Give a Number"
+                },
+                "costMismatchNext": {
+                    "type": "integer",
+                    "default_value": "-6",
+                    "title": "Mismatch Continuation Penalty",
+                    "description": "Multiple Mismatch Cost",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "eval",
+                    "constraint_data": "!isNaN(\"$_(val)\")",
+                    "constraint_description": "Give a Number"
+                },
+                "isglobal": {
+                    "type": "integer",
+                    "default_value": "0",
+                    "title": "Alignment Scope",
+                    "description": "Choosing local will tend to find alignments with higher scores aligned locally. Choosing global will produce alignments where the query sequence are aligned to the subject across the whole length.",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "choice",
+                    "constraint_data": "0///Local|1///Global"
+                },
+                "seed": {
+                    "type": "integer",
+                    "default_value": "11",
+                    "title": "Seed K-mer ",
+                    "description": "Minimum length of k-mer required to be aligned to consider the area of the read query starting from this k-mer",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "choice",
+                    "constraint_data": "8///8 letters|9///9 letters|10///10 letters|11///11 letters|12///12 letters|14///14 letters|-8///16 letters|-9///18 letters|-10///20 letters|-11///22 letters|-12///24 letters|-14///28 letters"
+                }
+            }
+        },
+        "base_tag": {
+            "type": "string",
+            "title": "Tag",
+            "description": "A tag, keyword, anything to mark an object",
+            "order": 0,
+            "is_readonly": false,
+            "is_multi": true,
+            "is_flattened_multi": true,
+            "is_hidden": true,
+            "_definer_type": "base_user_type"
+        },
+        "basicAlgParam": {
+            "type": "list",
+            "title": "Alignment Filters",
+            "description": "group",
+            "order": 0,
+            "is_readonly": false,
+            "is_flattened_decor": true,
+            "_children": {
+                "searchRepeatsAndTrans": {
+                    "type": "integer",
+                    "default_value": "0",
+                    "title": "Repeat and Transposition Discovery",
+                    "description": "Performs more detailed multi-pass lookups for repeats and transpositions (slower to run)",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "choice",
+                    "constraint_data": "0///do not search for repeats and transpositions|1///search for repeats only|2///search for repeats and transpositions"
+                }
+            }
+        },
+        "batch": {
+            "type": "list",
+            "title": "Batch Description",
+            "order": 0,
+            "is_readonly": false,
+            "is_multi": true,
+            "is_flattened_multi": true,
+            "_definer_type": "process",
+            "_children": {
+                "batch_list": {
+                    "type": "array",
+                    "title": "Parameter list",
+                    "order": 0,
+                    "is_readonly": false,
+                    "_definer_type": "process",
+                    "_children": {
+                        "batch_param": {
+                            "type": "string",
+                            "title": "Parameter",
+                            "order": 0,
+                            "is_readonly": false,
+                            "is_multi": true,
+                            "constraint": "choice",
+                            "_definer_type": "process"
+                        },
+                        "batch_value": {
+                            "type": "integer",
+                            "title": "Value",
+                            "order": 0,
+                            "is_readonly": false,
+                            "_definer_type": "process"
+                        }
+                    }
+                },
+                "batch_saturated": {
+                    "type": "bool",
+                    "title": "Saturated",
+                    "description": "Whether to force every batch for this list to contain at least one value from every parameter.",
+                    "order": 0,
+                    "is_readonly": false,
+                    "_definer_type": "process"
+                }
+            }
+        },
+        "batch_children_proc_ids": {
+            "type": "obj",
+            "title": "Batch submitted processes",
+            "description": "Processes created by batch submission",
+            "order": 0,
+            "is_readonly": true,
+            "is_autofill": true,
+            "is_multi": true,
+            "is_flattened_multi": true,
+            "constraint": "type",
+            "constraint_data": "svc-proc",
+            "_definer_type": "process"
+        },
+        "batch_svc": {
+            "type": "string",
+            "title": "Batch Service",
+            "description": "Determines if this tool should be run in single mode (one submission) or batch mode (multiple submissions).  NOTE: setting this option will clear other fields entered into the form.",
+            "order": 0,
+            "is_readonly": true,
+            "is_submitonce": true,
+            "constraint": "choice+",
+            "constraint_data": "single///Single Mode",
+            "_definer_type": "process"
+        },
+        "children_proc_ids": {
+            "type": "obj",
+            "title": "Children Processes",
+            "order": 0,
+            "is_readonly": true,
+            "is_autofill": true,
+            "is_multi": true,
+            "is_flattened_multi": true,
+            "constraint": "type",
+            "constraint_data": "svc-proc",
+            "_definer_type": "process"
+        },
+        "complexity": {
+            "type": "list",
+            "title": "Low complexity filter",
+            "description": "Low complexity region masking parameters",
+            "order": 0,
+            "is_readonly": false,
+            "is_flattened_decor": true,
+            "_definer_type": "svc-align",
+            "_children": {
+                "complexityQry": {
+                    "type": "array",
+                    "title": "Short read filtration",
+                    "order": 0,
+                    "is_readonly": false,
+                    "is_flattened_decor": true,
+                    "_definer_type": "svc-align",
+                    "_children": {
+                        "complexityEntropy": {
+                            "type": "real",
+                            "default_value": "0",
+                            "title": "Minimal Shannons Entropy",
+                            "description": "Minimal Shannons entrop value allowed within complexity window",
+                            "order": 0,
+                            "is_readonly": false,
+                            "is_flattened_multi": true,
+                            "constraint": "choice+",
+                            "constraint_data": "0///0 - permissive|1.///1 - lenient|1.2///1.2 - reluctant|1.6///1.6 - strict",
+                            "_definer_type": "svc-align"
+                        },
+                        "complexityWindow": {
+                            "type": "integer",
+                            "default_value": "0",
+                            "title": "Window Size",
+                            "description": "Low complexity region masking window size. All query sequences whch have low entropic content within the window of this size will be masked in alignment procedure",
+                            "order": 0,
+                            "is_readonly": false,
+                            "is_flattened_multi": true,
+                            "constraint": "choice",
+                            "constraint_data": "0///do not filter low complexity reads|15|20|30",
+                            "_definer_type": "svc-align"
+                        },
+                        "maximumPercentLowQualityAllowed": {
+                            "type": "integer",
+                            "default_value": "0",
+                            "title": "Maximum Percent Low Quality Allowed",
+                            "order": 4,
+                            "is_readonly": true,
+                            "is_writeonce": true,
+                            "is_flattened_multi": true,
+                            "constraint": "choice+",
+                            "constraint_data": "0///do not filter",
+                            "_definer_type": "svc-align"
+                        }
+                    }
+                },
+                "complexityRef": {
+                    "type": "array",
+                    "title": "Reference masking",
+                    "order": 0,
+                    "is_readonly": false,
+                    "is_flattened_decor": true,
+                    "_definer_type": "svc-align",
+                    "_children": {
+                        "complexityRefEntropy": {
+                            "type": "real",
+                            "default_value": "0",
+                            "title": "Minimal Shannons Entropy",
+                            "description": "Minimal Shannons entrop value allowed within complexity window",
+                            "order": 0,
+                            "is_readonly": false,
+                            "is_flattened_multi": true,
+                            "constraint": "choice+",
+                            "constraint_data": "0///0 - permissive|1.///1 - lenient|1.2///1.2 - reluctant|1.6///1.6 - strict",
+                            "_definer_type": "svc-align"
+                        },
+                        "complexityRefWindow": {
+                            "type": "integer",
+                            "default_value": "0",
+                            "title": "Window Size",
+                            "description": "Low complexity region masking window size. All query sequences whch have low entropic content within the window of this size will be masked in alignment procedure",
+                            "order": 0,
+                            "is_readonly": false,
+                            "is_flattened_multi": true,
+                            "constraint": "choice",
+                            "constraint_data": "0///do not mask low complexity regions|20|30|40|60",
+                            "_definer_type": "svc-align"
+                        },
+                        "acceptNNNQuaTrheshold": {
+                            "type": "integer",
+                            "default_value": "0",
+                            "title": "Filter NN and low quality",
+                            "description": "The quality filter",
+                            "order": 3,
+                            "is_readonly": false,
+                            "is_flattened_multi": true,
+                            "constraint": "choice+",
+                            "constraint_data": "0///do not filter|1///filter Ns only|20///do not seed on  low quality positions",
+                            "_definer_type": "svc-align"
+                        }
+                    }
+                }
+            }
+        },
+        "created": {
+            "type": "datetime",
+            "title": "Created",
+            "order": 0,
+            "is_readonly": true,
+            "_definer_type": "base"
+        },
+        "doubleHash": {
+            "type": "bool",
+            "default_value": "0",
+            "title": "Use Double Length Hash Optimization",
+            "order": 0,
+            "is_readonly": false
+        },
+        "doubleStagePerfect": {
+            "type": "integer",
+            "default_value": "1",
+            "title": "Use Exact Match Preference Optimization",
+            "order": 0,
+            "is_readonly": false,
+            "constraint": "choice",
+            "constraint_data": "0///Do not use exact match optimiztion|1///Use exact match optimization|2///Use exact match optimization while considering repeats"
+        },
+        "keepAllMatches": {
+            "type": "integer",
+            "default_value": "4",
+            "title": "Matches to Keep",
+            "description": "Decide which matches to maintain in the final hit list",
+            "order": 0,
+            "is_readonly": false,
+            "constraint": "choice",
+            "constraint_data": "0///First Match|1///Best first match|2///All Matches within acceptable thresholds|3///All equally best alternative matches|4///Random vote between equally best alternative matches|5///Uniquely aligned reads only",
+            "_definer_type": "svc-align"
+        },
+        "keepMarkovnikovMatches": {
+            "type": "bool",
+            "title": "Markovnikov rule on filtered matches",
+            "description": "If checked reads with multiple hits will be filtered based on the 'rich becomes richer' rule for references",
+            "order": 0,
+            "is_readonly": false,
+            "_definer_type": "svc-align"
+        },
+        "maxHitsPerRead": {
+            "type": "integer",
+            "default_value": "200",
+            "title": "Maximum Number of Hits per Read to Consider",
+            "order": 0,
+            "is_readonly": true,
+            "is_writeonce": true,
+            "constraint": "eval",
+            "constraint_data": "!(isNaN(\"$_(val)\")) && parseInt(\"$_(val)\")>=0",
+            "constraint_description": "Give a positive number",
+            "_definer_type": "svc-align"
+        },
+        "maxNumberQuery": {
+            "type": "string",
+            "default_value": "all",
+            "title": "Alignment Test-Run Slice",
+            "description": "This parameter controls the maximum number of sequences per thread to be aligned in a test run",
+            "order": 0,
+            "is_readonly": false,
+            "_definer_type": "svc-align"
+        },
+        "minMatchLen": {
+            "type": "string",
+            "default_value": "75",
+            "title": "Minimum Match Length",
+            "description": "Alignments shorter than this value are not reported",
+            "order": 0,
+            "is_readonly": false,
+            "is_batch": true,
+            "constraint": "eval",
+            "constraint_data": "!(isNaN(\"$_(val)\")) && parseInt(\"$_(val)\")>=0",
+            "constraint_description": "Give a positive number",
+            "_definer_type": "svc-align"
+        },
+        "mismatches": {
+            "type": "array",
+            "title": "Mismatches",
+            "order": 0,
+            "is_readonly": false,
+            "is_flattened_decor": true,
+            "_definer_type": "svc-align",
+            "_children": {
+                "maxMissQueryPercent": {
+                    "type": "integer",
+                    "default_value": "15",
+                    "title": "Percent Allowed",
+                    "description": "Alignments with a greater percentage mismatch than this threashold are discarded",
+                    "order": 1,
+                    "is_readonly": false,
+                    "is_flattened_multi": true,
+                    "is_batch": true,
+                    "constraint": "eval",
+                    "constraint_data": "!(isNaN(\"$_(val)\")) && parseInt(\"$_(val)\")>=0",
+                    "constraint_description": "Give a positive number",
+                    "_definer_type": "svc-align"
+                },
+                "considerGoodSubalignments": {
+                    "type": "integer",
+                    "default_value": "1",
+                    "title": "Computed on",
+                    "order": 2,
+                    "is_readonly": false,
+                    "is_flattened_multi": true,
+                    "constraint": "choice",
+                    "constraint_data": "0///Alignment length|1///Minimum match length|2///Read length",
+                    "_definer_type": "svc-align"
+                }
+            }
+        },
+        "modified": {
+            "type": "datetime",
+            "title": "Modified",
+            "order": 0,
+            "is_readonly": true,
+            "_definer_type": "base"
+        },
+        "pairedEnds": {
+            "type": "list",
+            "title": "Paired end filters",
+            "order": 0,
+            "is_readonly": false,
+            "is_flattened_decor": true,
+            "_definer_type": "svc-align",
+            "_children": {
+                "keepPairedOnly": {
+                    "type": "bool",
+                    "title": "Filter unpaired alignments",
+                    "order": 0,
+                    "is_readonly": false,
+                    "_definer_type": "svc-align"
+                },
+                "keepPairOnOppositeStrand": {
+                    "type": "bool",
+                    "title": "Filter pairs with wrong strandedness",
+                    "order": 0,
+                    "is_readonly": false,
+                    "_definer_type": "svc-align"
+                },
+                "keepPairOnSameSubject": {
+                    "type": "bool",
+                    "title": "Filter pairs on different subjects",
+                    "order": 0,
+                    "is_readonly": false,
+                    "_definer_type": "svc-align"
+                },
+                "fragmentLength": {
+                    "type": "array",
+                    "title": "Length of the fragment",
+                    "order": 0,
+                    "is_readonly": false,
+                    "is_flattened_decor": true,
+                    "_definer_type": "svc-align",
+                    "_children": {
+                        "fragmentLengthMin": {
+                            "type": "integer",
+                            "title": "Min",
+                            "order": 1,
+                            "is_readonly": false,
+                            "is_flattened_multi": true,
+                            "_definer_type": "svc-align"
+                        },
+                        "fragmentLengthMax": {
+                            "type": "integer",
+                            "title": "Max",
+                            "order": 2,
+                            "is_readonly": false,
+                            "is_flattened_multi": true,
+                            "_definer_type": "svc-align"
+                        }
+                    }
+                },
+                "fragmentScore": {
+                    "type": "integer",
+                    "title": "Calculate score on pair",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "choice",
+                    "constraint_data": "0///Sum of each end|1///Fragment balanced scores",
+                    "_definer_type": "svc-align"
+                }
+            }
+        },
+        "parent_proc_ids": {
+            "type": "obj",
+            "title": "Parent Processes",
+            "order": 0,
+            "is_readonly": false,
+            "is_multi": true,
+            "is_flattened_multi": true,
+            "is_hidden": true,
+            "constraint": "type",
+            "constraint_data": "process+",
+            "_definer_type": "process"
+        },
+        "produceRandomReadsForNT": {
+            "type": "bool",
+            "title": "Produce Random Reads for NT",
+            "order": 0,
+            "is_readonly": false,
+            "is_hidden": true,
+            "_definer_type": "svc-align-dnaseq"
+        },
+        "random_seed": {
+            "type": "integer",
+            "default_value": "0",
+            "title": "Random Seed",
+            "order": 0,
+            "is_readonly": false,
+            "_definer_type": "process"
+        },
+        "readconflicts": {
+            "type": "list",
+            "title": "Resolve conflicts",
+            "order": 0,
+            "is_readonly": false,
+            "is_flattened_decor": true,
+            "_definer_type": "svc-align",
+            "_children": {
+                "resolveConfictsUnique": {
+                    "type": "bool",
+                    "default_value": "0",
+                    "title": "Use uniquely align reads only",
+                    "order": 0,
+                    "is_readonly": false,
+                    "_definer_type": "svc-align"
+                },
+                "resolveConflicts": {
+                    "type": "integer",
+                    "title": "Conflict resolution method",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "choice",
+                    "constraint_data": "0///No resolution|1///Markovnikov rule|2///Balanced",
+                    "_definer_type": "svc-align"
+                },
+                "resolveConflictsScore": {
+                    "type": "integer",
+                    "title": "Score for confilct resolution",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "choice",
+                    "constraint_data": "1///Number of reads|2///Coverage symmetry",
+                    "_definer_type": "svc-align"
+                }
+            }
+        },
+        "resultFileTemplate": {
+            "type": "string",
+            "title": "resultFileTemplate",
+            "order": 0,
+            "is_readonly": true,
+            "_definer_type": "svc-align"
+        },
+        "scissors": {
+            "type": "string",
+            "default_value": "hiveseq",
+            "title": "How to split the sequences",
+            "description": "The way large jobs are split into smaller pieces",
+            "order": 0,
+            "is_readonly": false,
+            "is_hidden": true,
+            "constraint": "choice",
+            "constraint_data": "hiveseq///By the number of sequences|hiveal///By the number of alignments",
+            "_definer_type": "svc-dna"
+        },
+        "scoreFilter": {
+            "type": "string",
+            "default_value": "None",
+            "title": "Score Filter",
+            "description": "Alignments with smaller scores are discarded and not reported. If 'none' is specified: all alignments are reported which satisfy the other criteria.",
+            "order": 0,
+            "is_readonly": false,
+            "_definer_type": "svc-align"
+        },
+        "slice": {
+            "type": "integer",
+            "default_value": "500000",
+            "title": "Number of Computational Subjects per Single Thread",
+            "order": 0,
+            "is_readonly": false,
+            "constraint": "eval",
+            "constraint_data": "!isNaN(\"$_(val)\")",
+            "constraint_description": "Give a Number",
+            "_definer_type": "svc-dna"
+        },
+        "split": {
+            "type": "string",
+            "default_value": "query",
+            "title": "What field contains the object spliting the jobs",
+            "order": 0,
+            "is_readonly": false,
+            "is_hidden": true,
+            "_definer_type": "svc-dna"
+        },
+        "splitField": {
+            "type": "string",
+            "default_value": "query",
+            "title": "What field contains the object spliting the jobs",
+            "order": 0,
+            "is_readonly": false,
+            "is_hidden": true,
+            "_definer_type": "svc-dna"
+        },
+        "splitList": {
+            "type": "list",
+            "title": "Split process into smaller chunks",
+            "order": 0,
+            "is_readonly": false,
+            "is_flattened_decor": true,
+            "_definer_type": "process",
+            "_children": {
+                "looseExtenderMismatchesPercent": {
+                    "type": "integer",
+                    "default_value": "25",
+                    "title": "K-mer Extension Mismatch Allowance Percent",
+                    "description": "Defines the maximum mismatch, as a percentage of seed length, allowed in order to progress to Smith-Waterman.",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "eval",
+                    "constraint_data": "!(isNaN(\"$_(val)\"))",
+                    "constraint_description": "Give a Number"
+                },
+                "maxExtensionGaps": {
+                    "type": "integer",
+                    "default_value": "0",
+                    "title": "Allowed number of gaps during extension",
+                    "description": "The number of cumulative insertions and deletions allowed during seed extension.",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "eval",
+                    "constraint_data": "!isNaN(\"$_(val)\")",
+                    "constraint_description": "Give a Number"
+                },
+                "maxHashBin": {
+                    "type": "integer",
+                    "default_value": "50",
+                    "title": "Over-represented K-Mer suppression",
+                    "description": "Some K-mers are repeated much more frequently than would be expected by random occurrence. The aligner will only try to seed up to the specified number of any given K-mer hits.",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "eval",
+                    "constraint_data": "!(isNaN(\"$_(val)\"))",
+                    "constraint_description": "Give a Number"
+                }
+            }
+        },
+        "splitSize": {
+            "type": "integer",
+            "default_value": "500000",
+            "title": "Number of Computational Subjects per Single Thread",
+            "order": 0,
+            "is_readonly": false,
+            "constraint": "eval",
+            "constraint_data": "!isNaN(\"$_(val)\")",
+            "constraint_description": "Give a Number",
+            "_definer_type": "svc-dna"
+        },
+        "splitType": {
+            "type": "string",
+            "default_value": "sequences",
+            "title": "How to split the sequences",
+            "description": "The way large jobs are split into smaller pieces",
+            "order": 0,
+            "is_readonly": false,
+            "is_hidden": true,
+            "constraint": "choice",
+            "constraint_data": "sequences///By the number of sequences|alignments///By the number of alignments",
+            "_definer_type": "svc-dna"
+        },
+        "subject": {
+            "type": "obj",
+            "title": "Reference Genome",
+            "description": "Reference genome (subject)",
+            "order": 0,
+            "is_readonly": true,
+            "is_writeonce": true,
+            "is_multi": true,
+            "is_flattened_multi": true,
+            "is_batch": true,
+            "constraint": "type",
+            "constraint_data": "^genome$,folder",
+            "_definer_type": "svc-align"
+        },
+        "subSet": {
+            "type": "string",
+            "title": "Reference genome serial number",
+            "order": 0,
+            "is_readonly": false,
+            "is_hidden": true,
+            "_definer_type": "svc-dna"
+        },
+        "system": {
+            "type": "list",
+            "title": "System",
+            "order": 0,
+            "is_readonly": false,
+            "is_flattened_decor": true,
+            "_definer_type": "process",
+            "_children": {
+                "action": {
+                    "type": "integer",
+                    "title": "Action for Request",
+                    "order": 0,
+                    "is_readonly": false,
+                    "is_hidden": true,
+                    "constraint": "choice",
+                    "constraint_data": "0///Unknown|1///Hold|2///Run|3///Terminate|4///Suspend|5///Resume",
+                    "_definer_type": "process"
+                },
+                "completed": {
+                    "type": "datetime",
+                    "title": "Completed",
+                    "order": 0,
+                    "is_readonly": true,
+                    "is_autofill": true,
+                    "_definer_type": "process"
+                },
+                "folder": {
+                    "type": "string",
+                    "title": "Destination folder",
+                    "order": 0,
+                    "is_readonly": false,
+                    "is_virtual": true,
+                    "constraint": "type",
+                    "constraint_data": "folder+",
+                    "_definer_type": "process"
+                },
+                "isPostponed": {
+                    "type": "bool",
+                    "default_value": "false",
+                    "title": "Postpone execution",
+                    "description": "Launch job in suspended state, you will need to manually launching later",
+                    "order": 0,
+                    "is_readonly": false,
+                    "_definer_type": "process"
+                },
+                "onUserBehalf": {
+                    "type": "integer",
+                    "title": "On Behalf of The User",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "search",
+                    "constraint_data": "{fetch:\"id\", inline:\"name\", outline:\"name\", url:\"http://?cmd=usrList&active=1&grp=0&primaryGrpOnly=1&raw=1\"}",
+                    "_definer_type": "process"
+                },
+                "progress": {
+                    "type": "integer",
+                    "title": "Progress",
+                    "order": 0,
+                    "is_readonly": true,
+                    "is_autofill": true,
+                    "_definer_type": "process"
+                },
+                "reqID": {
+                    "type": "integer",
+                    "title": "Request ID",
+                    "order": 0,
+                    "is_readonly": true,
+                    "is_autofill": true,
+                    "_definer_type": "process"
+                },
+                "reqPriority": {
+                    "type": "integer",
+                    "default_value": "0",
+                    "title": "Priority of submission",
+                    "order": 0,
+                    "is_readonly": false,
+                    "constraint": "choice",
+                    "constraint_data": "0///normal - execute ASAP in collaborative environment|100///polite submission - let other users small computations to squeeze through|1000///large submissions - do not compete with small and medium computations|1000000///extremely nice - execute only when most computers are not busy",
+                    "_definer_type": "process"
+                },
+                "started": {
+                    "type": "datetime",
+                    "title": "Started",
+                    "order": 0,
+                    "is_readonly": true,
+                    "is_autofill": true,
+                    "_definer_type": "process"
+                },
+                "status": {
+                    "type": "integer",
+                    "title": "Status",
+                    "order": 0,
+                    "is_readonly": true,
+                    "is_autofill": true,
+                    "constraint": "choice",
+                    "constraint_data": "0///Unknown|1///Waiting|2///Processing|3///Running|4///Suspended|5///Done|6///Killed|7///ProgError|8///SysError",
+                    "_definer_type": "process"
+                },
+                "svc": {
+                    "type": "string",
+                    "title": "Service ID",
+                    "order": 0,
+                    "is_readonly": true,
+                    "is_autofill": true,
+                    "_definer_type": "process"
+                },
+                "systemVersion": {
+                    "type": "string",
+                    "default_value": "eval:gSysVersion",
+                    "title": "System version number",
+                    "order": 0,
+                    "is_readonly": true,
+                    "is_autofill": true,
+                    "_definer_type": "process"
+                },
+                "svcTitle": {
+                    "type": "string",
+                    "title": "Service Title",
+                    "order": 2,
+                    "is_readonly": true,
+                    "is_autofill": true,
+                    "brief": "<b>$_(v)</b>",
+                    "_definer_type": "process"
+                },
+                "progress100": {
+                    "type": "integer",
+                    "title": "Progress %",
+                    "order": 3,
+                    "is_readonly": true,
+                    "is_autofill": true,
+                    "brief": "$_(v)%",
+                    "_definer_type": "process"
+                }
+            }
+        },
+        "alignSelector": {
+            "type": "string",
+            "default_value": "svc-align-hexagon",
+            "title": "Alignment Algorithm",
+            "description": "Alignment engine selector",
+            "order": 1,
+            "is_readonly": true,
+            "is_submitonce": true,
+            "constraint": "search",
+            "constraint_data": "{\nfetch:'name',url:'http://?cmd=objList&type=algorithm-alignment-dnaseq%2B&raw=1&mode=csv',\ninline:[\n    {name:'id',hidden:true,title:'ID'},\n    {name:'icon',hidden:false,iconSize:48, type:'icon',title:'Icon'},\n    {name:'title',hidden:false,title:'Name'},\n    {name:'version',hidden:false,title:'Version'}\n],\noutline:[\n    {name:'id',hidden:true,title:'ID'},\n    {name:'title',order:2,hidden:false,title:'Name'},\n    {name:'description',hidden:false,title:'Description'},\n    {name:'version',hidden:false,title:'Version'}\n]\n}",
+            "_definer_type": "svc-align-dnaseq"
+        },
+        "referenceAnnot": {
+            "type": "string",
+            "title": "Reference Annotation Filter",
+            "order": 1,
+            "is_readonly": false,
+            "is_multi": true,
+            "is_flattened_multi": true,
+            "constraint": "type",
+            "constraint_data": "u-ionAnnot"
+        },
+        "referenceAnnotTypes": {
+            "type": "string",
+            "title": "Reference Annotation Types",
+            "order": 2,
+            "is_readonly": false,
+            "is_multi": true,
+            "is_flattened_multi": true,
+            "constraint": "choice+",
+            "constraint_data": "mat_peptide///Mature Peptide|CDS///Coding Regions"
+        },
+        "force_reindex": {
+            "type": "bool",
+            "default_value": "false",
+            "title": "Force Reindexing of Subject",
+            "order": 3,
+            "is_readonly": false,
+            "_definer_type": "svc-align-dnaseq"
+        },
+        "query": {
+            "type": "obj",
+            "title": "Sequence Read",
+            "description": "Query sequences (reads)",
+            "order": 3,
+            "is_readonly": true,
+            "is_writeonce": true,
+            "is_multi": true,
+            "is_flattened_multi": true,
+            "is_batch": true,
+            "constraint": "type",
+            "constraint_data": "nuc-read,folder,svc-dna-insilico",
+            "_definer_type": "svc-align"
+        },
+        "comment": {
+            "type": "text",
+            "title": "Comments",
+            "description": "Comment field for arbitrary descriptive information associated with this process",
+            "order": 30,
+            "is_readonly": false,
+            "is_multi": true,
+            "is_flattened_multi": true,
+            "_definer_type": "process"
+        },
+        "submitter": {
+            "type": "string",
+            "title": "Submitting Template Page",
+            "order": 1003.1,
+            "is_readonly": false,
+            "is_hidden": true,
+            "_definer_type": "process"
+        }
+    }
+}

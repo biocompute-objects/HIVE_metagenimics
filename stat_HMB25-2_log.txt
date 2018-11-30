@@ -1,0 +1,8 @@
+  File: ‘HMB25-2_log.txt’
+  Size: 61999     	Blocks: 128        IO Block: 1048576 regular file
+Device: 2ch/44d	Inode: 96648717373  Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1170/hadleyking)   Gid: ( 1106/developer)
+Context: system_u:object_r:nfs_t:s0
+Access: 2016-11-30 06:46:38.751009622 -0500
+Modify: 2016-11-30 10:47:08.987894534 -0500
+Change: 2017-07-17 20:08:34.181340193 -0400

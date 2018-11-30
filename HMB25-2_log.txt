@@ -1,0 +1,1170 @@
+Submitting CensuScope Process
+
+cmdr=-qpProcSubmit&svc=svc-dna-screening&prop.svc-dna-screening.action=2&prop.svc-dna-screening._type=svc-dna-screening&prop.svc-dna-screening.alignSelector.21=svc-align-blast&prop.svc-dna-screening.automanual.22=0&prop.svc-dna-screening.batch_svc.5=single&prop.svc-dna-screening.blastWordSize.29=28&prop.svc-dna-screening.CensusIterations.6=1&prop.svc-dna-screening.CensuslimitIterations.7=5&prop.svc-dna-screening.chunk_size.9=4000&prop.svc-dna-screening.cutOffvalue.11=0.0005&prop.svc-dna-screening.filterNs.12=1&prop.svc-dna-screening.isPostponed.20.3=0&prop.svc-dna-screening.name.1=HMB25-2_R1&prop.svc-dna-screening.query.1.1=545722&prop.svc-dna-screening.query.1.23=545721&prop.svc-dna-screening.reqPriority.20.7=0&prop.svc-dna-screening.resultInQueryDir.26=0&prop.svc-dna-screening.Sample.15=2500&prop.svc-dna-screening.scissors.16=hiveseq&prop.svc-dna-screening.selfStopping.27=0&prop.svc-dna-screening.slice.17=0&prop.svc-dna-screening.split.18=-&prop.svc-dna-screening.storeAlignments.28=1&prop.svc-dna-screening.subject=513957&prop.svc-dna-screening.submitter.33=dna-screening&prop.svc-dna-screening.svc=dna-screening&prop.svc-dna-screening.svcTitle=CensuScope&prop.svc-dna-screening.systemVersion.20.11=1.1&prop.svc-dna-screening.taxDepth.25=leaf&prop.svc-dna-screening.textBasedColumn.31.1=0&prop.svc-dna-screening.textBasedFileSeparator.31.2=1
+Your CensuScope ID is:  546223
+Progress report on object 546223
+Process in submision
+Progress report on object 546223
+Process Running. 9 percent complete
+Progress report on object 546223
+Process Running. 9 percent complete
+Progress report on object 546223
+Process Running. 9 percent complete
+Progress report on object 546223
+Process Running. 12 percent complete
+Progress report on object 546223
+Process Running. 12 percent complete
+Progress report on object 546223
+Process Running. 12 percent complete
+Progress report on object 546223
+Process Running. 18 percent complete
+Progress report on object 546223
+Process Running. 27 percent complete
+Progress report on object 546223
+Process Running. 33 percent complete
+Progress report on object 546223
+Process Running. 36 percent complete
+Progress report on object 546223
+Process Running. 36 percent complete
+Progress report on object 546223
+Process Running. 36 percent complete
+Progress report on object 546223
+Process Running. 36 percent complete
+Progress report on object 546223
+Process Running. 39 percent complete
+Progress report on object 546223
+Process Running. 43 percent complete
+Progress report on object 546223
+Process Running. 43 percent complete
+Progress report on object 546223
+Process Running. 59 percent complete
+Progress report on object 546223
+Process Running. 63 percent complete
+Progress report on object 546223
+Process Running. 66 percent complete
+Progress report on object 546223
+Process Running. 66 percent complete
+Progress report on object 546223
+Process Running. 66 percent complete
+Progress report on object 546223
+Process Running. 74 percent complete
+Progress report on object 546223
+Process in submision
+Progress report on object 546223
+Process Running. 86 percent complete
+Progress report on object 546223
+DONE!
+Getting Hit List from CensuScope...
+
+cen546223_HMB25-2_R1.csv  written to file
+9004671 2481 CP000139.1
+21539837 605 FP929033.1
+19240004 384 AE015928.1
+18741900 298 CP002544.1
+1243262 296 FP929046.1
+6878559 257 HF545616.1
+1572969 195 CP007619.1
+14027417 181 FP929045.1
+5608853 158 CP000140.1
+9501121 138 CP003274.1
+18693111 98 FP929061.1
+6747852 87 CP001107.1
+1307574 83 CP008741.1
+336818 68 FP929055.1
+9589945 60 FP929051.1
+17530582 59 FP929043.1
+18062853 58 HF545617.1
+6784351 56 CP003040.1
+18879180 53 FP929062.1
+10216097 41 FP929044.1
+19667764 40 FP929054.1
+18381426 39 FP929059.1
+20758482 39 FP929042.1
+72213 38 CP002530.1
+15795192 36 FP929032.1
+22067907 31 AP006841.1
+18518873 30 FP929053.1
+6363959 30 CP001104.1
+51749 28 CP002352.1
+487354 27 CP001071.1
+14923809 25 FP929038.1
+4345294 24 AY171301.1
+13024965 21 CP006828.1
+JQ995537.1  is black Listed 20
+15854442 18 FP929050.1
+22067906 16 FQ312004.1
+17181405 12 FP929060.1
+1379178 11 AJ431573.1
+9637229 11 BK008009.1
+21006709 10 CP007034.1
+10372654 10 AP006842.1
+13967355 10 AY515263.1
+513957,9004671,9004671;513957,21539837,21539837;513957,19240004,19240004;513957,18741900,18741900;513957,1243262,1243262;513957,6878559,6878559;513957,1572969,1572969;513957,14027417,14027417;513957,5608853,5608853;513957,9501121,9501121;513957,18693111,18693111;513957,6747852,6747852;513957,1307574,1307574;513957,336818,336818;513957,9589945,9589945;513957,17530582,17530582;513957,18062853,18062853;513957,6784351,6784351;513957,18879180,18879180;513957,10216097,10216097;513957,19667764,19667764;513957,18381426,18381426;513957,20758482,20758482;513957,72213,72213;513957,15795192,15795192;513957,22067907,22067907;513957,18518873,18518873;513957,6363959,6363959;513957,51749,51749;513957,487354,487354;513957,14923809,14923809;513957,4345294,4345294;513957,13024965,13024965;513957,15854442,15854442;513957,22067906,22067906;513957,17181405,17181405;513957,1379178,1379178;513957,9637229,9637229;513957,21006709,21006709;513957,10372654,10372654;513957,13967355,13967355
+Creating Hive Seq Obj
+
+cmdr=-qpProcSubmit&svc=dna-hiveseq&raw=1&prop.svc-hiveseq.name.1=HMB25-2HiveSeq_R1&prop.svc-hiveseq.AlgorithmsName.11.0=0&prop.svc-hiveseq.lowcomplexityactive.12.0=0&prop.svc-hiveseq.lowcomplexityWindow.12.0=15&prop.svc-hiveseq.lowcomplexityEntropy.12.0=1&prop.svc-hiveseq.lowcomplexityOption.12.0=0&prop.svc-hiveseq.AdaptersFilter.13=0&prop.svc-hiveseq.adaptersactive.13.0=0&prop.svc-hiveseq.adaptersObjId.13.0=0&prop.svc-hiveseq.adaptersReverse.13.0.0=0&prop.svc-hiveseq.adaptersComplement.13.0.1=0&prop.svc-hiveseq.adaptersMaxmissmatches.13.0=2&prop.svc-hiveseq.adaptersMinLength.13.0=10&prop.svc-hiveseq.primersactive.17.0=0&prop.svc-hiveseq.primersReverse.17.0.0=0&prop.svc-hiveseq.primersComplement.17.0.1=0&prop.svc-hiveseq.primersKeep.17.0=0&prop.svc-hiveseq.primersMaxmissmatches.17.0=2&prop.svc-hiveseq.primersMinLength.17.0=100&prop.svc-hiveseq.QualityFilter.19=0&prop.svc-hiveseq.qualityactive.19.0=0&prop.svc-hiveseq.qualityPercentage.19.0=100&prop.svc-hiveseq.qualityThreshold.19.0=50&prop.svc-hiveseq.trimMinimum.20.0=-1&prop.svc-hiveseq.trimMaximum.20.0=-1&prop.svc-hiveseq.removeMin.21.0.0=-1&prop.svc-hiveseq.removeMax.21.0.0=-1&prop.svc-hiveseq.lengthSeqFilter.16=0&prop.svc-hiveseq.minimumSeqLength.16.0=0&prop.svc-hiveseq.idfilteractive.15.0=0&prop.svc-hiveseq.idlistObjId.15.0=0&prop.svc-hiveseq.listExclusion.15.0=0&prop.svc-hiveseq.randomizerNumValue.22.0=100&prop.svc-hiveseq.randomizerNoise.22.1=0&prop.svc-hiveseq.randomizerMinLength.22.2=100&prop.svc-hiveseq.randomizerMaxLength.22.3=100&prop.svc-hiveseq.randomizerRevComp.22.6=0&prop.svc-hiveseq.randLengthNorm.22.7=1&prop.svc-hiveseq.seqExclusionOption.23.1=0&prop.svc-hiveseq.seqExclusionRevComp.23.2=0&prop.svc-hiveseq.hiveseqQry.24=513957%2C9004671%2C9004671%3B513957%2C21539837%2C21539837%3B513957%2C19240004%2C19240004%3B513957%2C18741900%2C18741900%3B513957%2C1243262%2C1243262%3B513957%2C6878559%2C6878559%3B513957%2C1572969%2C1572969%3B513957%2C14027417%2C14027417%3B513957%2C5608853%2C5608853%3B513957%2C9501121%2C9501121%3B513957%2C18693111%2C18693111%3B513957%2C6747852%2C6747852%3B513957%2C1307574%2C1307574%3B513957%2C336818%2C336818%3B513957%2C9589945%2C9589945%3B513957%2C17530582%2C17530582%3B513957%2C18062853%2C18062853%3B513957%2C6784351%2C6784351%3B513957%2C18879180%2C18879180%3B513957%2C10216097%2C10216097%3B513957%2C19667764%2C19667764%3B513957%2C18381426%2C18381426%3B513957%2C20758482%2C20758482%3B513957%2C72213%2C72213%3B513957%2C15795192%2C15795192%3B513957%2C22067907%2C22067907%3B513957%2C18518873%2C18518873%3B513957%2C6363959%2C6363959%3B513957%2C51749%2C51749%3B513957%2C487354%2C487354%3B513957%2C14923809%2C14923809%3B513957%2C4345294%2C4345294%3B513957%2C13024965%2C13024965%3B513957%2C15854442%2C15854442%3B513957%2C22067906%2C22067906%3B513957%2C17181405%2C17181405%3B513957%2C1379178%2C1379178%3B513957%2C9637229%2C9637229%3B513957%2C21006709%2C21006709%3B513957%2C10372654%2C10372654%3B513957%2C13967355%2C13967355&prop.svc-hiveseq.inputMode.25=0&prop.svc-hiveseq.pecPairEndFile.18.0=0&prop.svc-hiveseq.pecMinMatchLen.18.0=15&prop.svc-hiveseq.pecQualities.18.0=1&prop.svc-hiveseq.pecKeepAlignments.18.0=0&prop.svc-hiveseq.denovoExtSizemer.14.0=16&prop.svc-hiveseq.denovoExtSizeFilter.14.0=0&prop.svc-hiveseq.denovoExtRptFilter.14.0=0&prop.svc-hiveseq.denovoExtFirstStage.14.0=1&prop.svc-hiveseq.denovoOutFilterLength.14.0=1000&prop.svc-hiveseq.denovoMissmatchesPercentage.14.0=2&prop.svc-hiveseq.maxNumberQueryForHiveseq.25=-1&prop.svc-hiveseq.inputMode.27.0=1&prop.svc-hiveseq.isFastQFile.26.0=1&prop.svc-hiveseq.keepOriginalID.26.1=1&prop.svc-hiveseq.appendLength.26.2=1&prop.svc-hiveseq.isHiveseq.26.3=0&prop.svc-hiveseq.isRevComp.26.4=0&prop.svc-hiveseq.submitter.29=dna-hiveseq&prop.svc-hiveseq._type=svc-hiveseq&prop.svc-hiveseq.parent_proc_ids.9=3101923&prop.svc-hiveseq.action.10.0=2&prop.svc-hiveseq.isPostponed.10.3=0&prop.svc-hiveseq.reqPriority.10.7=0
+Progress report on object 546227
+Process in submision
+Progress report on object 546227
+Process Running. 44 percent complete
+Progress report on object 546227
+Process Running. 68 percent complete
+Progress report on object 546227
+Process in submision
+Progress report on object 546227
+Process in submision
+Progress report on object 546227
+DONE!
+Your HiveSeq ID is:  546228
+Creating Hexagon Alignment Object
+
+cmdr=-qpProcSubmit&svc=dna-hexagon&raw=1&prop.svc-align-hexagon.alignSelector.9=svc-align-hexagon&prop.svc-align-hexagon.name.11=HMB25-2_R1&prop.svc-align-hexagon.query.1=545722&prop.svc-align-hexagon.query.1.23=545721&prop.svc-align-hexagon.submitter.14=dna-hexagon&prop.svc-align-hexagon.isbackward.7.11=1&prop.svc-align-hexagon.isextendtails.7.12=0&prop.svc-align-hexagon.maxExtensionGaps.7.13=0&prop.svc-align-hexagon.reverseEngine.7.3=0&prop.svc-align-hexagon.isoptimize.7.6=1&prop.svc-align-hexagon.hashStp.7.7=auto&prop.svc-align-hexagon.hashCompileStp.7.8=auto&prop.svc-align-hexagon.looseExtenderMinimumLengthPercent.7.0=66&prop.svc-align-hexagon.looseExtenderMismatchesPercent.7.4=25&prop.svc-align-hexagon.alignmentEngine.7.9=1&prop.svc-align-hexagon.maxHashBin.7.2=50&prop.svc-align-hexagon.selfQueryPosJumpInNonPerfectAlignment.7.1=1&prop.svc-align-hexagon.useRedundSim.7.5=1&prop.svc-align-hexagon.computeDiagonalWidth.7.10=auto&prop.svc-align-hexagon.searchRepeatsAndTrans.5.0=0&prop.svc-align-hexagon.isglobal.6.7=0&prop.svc-align-hexagon.costGapNext.6.5=-4&prop.svc-align-hexagon.costGapOpen.6.4=-12&prop.svc-align-hexagon.costMatch.6.6=5&prop.svc-align-hexagon.costMismatchNext.6.2=-6&prop.svc-align-hexagon.costMismatch.6.1=-4&prop.svc-align-hexagon.seed.6.3=11&prop.svc-align-hexagon.allowShorterEnds.6.0=0&prop.svc-align-hexagon.maxNumberQuery.24=all&prop.svc-align-hexagon.scissors.28=hiveseq&prop.svc-align-hexagon.complexityRefEntropy.3.0.0=1.2&prop.svc-align-hexagon.complexityRefWindow.3.0.0=30&prop.svc-align-hexagon.complexityEntropy.3.1.0=1.2&prop.svc-align-hexagon.complexityWindow.3.1.0=30&prop.svc-align-hexagon.keepAllMatches.33=3&2prop.svc-align-hexagon.maxHitsPerRead.23=200&prop.svc-align-hexagon.minMatchLen.25=45&prop.svc-align-hexagon.maxMissQueryPercent.2.0=15&prop.svc-align-hexagon.considerGoodSubalignments.2.0=1&prop.svc-align-hexagon.slice.15=500000&prop.svc-align-hexagon._type=svc-align-hexagon&prop.svc-align-hexagon.subject.16=546228&prop.svc-align-hexagon.scoreFilter.21=None&prop.svc-align-hexagon.action.0.0=2&prop.svc-align-hexagon.doubleHash.20=0&prop.svc-align-hexagon.doubleStagePerfect.30=1&prop.svc-align-hexagon.split.17=query
+Your Hexagon ID is:  546232
+Progress report on object 546232
+Process in submision
+Progress report on object 546232
+Process Running. 0 percent complete
+Progress report on object 546232
+Process Running. 0 percent complete
+Progress report on object 546232
+Process Running. 0 percent complete
+Progress report on object 546232
+Process Running. 2 percent complete
+Progress report on object 546232
+Process Running. 3 percent complete
+Progress report on object 546232
+Process Running. 5 percent complete
+Progress report on object 546232
+Process Running. 5 percent complete
+Progress report on object 546232
+Process Running. 7 percent complete
+Progress report on object 546232
+Process Running. 9 percent complete
+Progress report on object 546232
+Process Running. 11 percent complete
+Progress report on object 546232
+Process Running. 11 percent complete
+Progress report on object 546232
+Process Running. 13 percent complete
+Progress report on object 546232
+Process Running. 14 percent complete
+Progress report on object 546232
+Process Running. 16 percent complete
+Progress report on object 546232
+Process Running. 17 percent complete
+Progress report on object 546232
+Process Running. 19 percent complete
+Progress report on object 546232
+Process Running. 20 percent complete
+Progress report on object 546232
+Process Running. 22 percent complete
+Progress report on object 546232
+Process Running. 23 percent complete
+Progress report on object 546232
+Process Running. 23 percent complete
+Progress report on object 546232
+Process Running. 26 percent complete
+Progress report on object 546232
+Process Running. 26 percent complete
+Progress report on object 546232
+Process Running. 28 percent complete
+Progress report on object 546232
+Process Running. 29 percent complete
+Progress report on object 546232
+Process Running. 31 percent complete
+Progress report on object 546232
+Process Running. 32 percent complete
+Progress report on object 546232
+Process Running. 34 percent complete
+Progress report on object 546232
+Process Running. 35 percent complete
+Progress report on object 546232
+Process Running. 36 percent complete
+Progress report on object 546232
+Process Running. 38 percent complete
+Progress report on object 546232
+Process Running. 40 percent complete
+Progress report on object 546232
+Process Running. 40 percent complete
+Progress report on object 546232
+Process Running. 43 percent complete
+Progress report on object 546232
+Process Running. 43 percent complete
+Progress report on object 546232
+Process Running. 45 percent complete
+Progress report on object 546232
+Process Running. 46 percent complete
+Progress report on object 546232
+Process Running. 48 percent complete
+Progress report on object 546232
+Process Running. 49 percent complete
+Progress report on object 546232
+Process Running. 51 percent complete
+Progress report on object 546232
+Process Running. 52 percent complete
+Progress report on object 546232
+Process Running. 54 percent complete
+Progress report on object 546232
+Process Running. 55 percent complete
+Progress report on object 546232
+Process Running. 57 percent complete
+Progress report on object 546232
+Process Running. 57 percent complete
+Progress report on object 546232
+Process Running. 59 percent complete
+Progress report on object 546232
+Process Running. 60 percent complete
+Progress report on object 546232
+Process Running. 63 percent complete
+Progress report on object 546232
+Process Running. 63 percent complete
+Progress report on object 546232
+Process Running. 65 percent complete
+Progress report on object 546232
+Process Running. 66 percent complete
+Progress report on object 546232
+Process Running. 69 percent complete
+Progress report on object 546232
+Process Running. 69 percent complete
+Progress report on object 546232
+Process Running. 71 percent complete
+Progress report on object 546232
+Process Running. 73 percent complete
+Progress report on object 546232
+Process Running. 74 percent complete
+Progress report on object 546232
+Process Running. 75 percent complete
+Progress report on object 546232
+Process Running. 75 percent complete
+Progress report on object 546232
+Process Running. 76 percent complete
+Progress report on object 546232
+Process Running. 77 percent complete
+Progress report on object 546232
+Process Running. 78 percent complete
+Progress report on object 546232
+Process Running. 78 percent complete
+Progress report on object 546232
+Process Running. 80 percent complete
+Progress report on object 546232
+Process Running. 80 percent complete
+Progress report on object 546232
+Process Running. 82 percent complete
+Progress report on object 546232
+Process Running. 82 percent complete
+Progress report on object 546232
+Process Running. 83 percent complete
+Progress report on object 546232
+Process Running. 84 percent complete
+Progress report on object 546232
+Process Running. 85 percent complete
+Progress report on object 546232
+Process Running. 85 percent complete
+Progress report on object 546232
+Process Running. 85 percent complete
+Progress report on object 546232
+Process Running. 86 percent complete
+Progress report on object 546232
+Process Running. 86 percent complete
+Progress report on object 546232
+Process Running. 87 percent complete
+Progress report on object 546232
+Process Running. 87 percent complete
+Progress report on object 546232
+Process Running. 87 percent complete
+Progress report on object 546232
+Process Running. 87 percent complete
+Progress report on object 546232
+Process Running. 88 percent complete
+Progress report on object 546232
+Process Running. 88 percent complete
+Progress report on object 546232
+Process Running. 88 percent complete
+Progress report on object 546232
+Process Running. 89 percent complete
+Progress report on object 546232
+Process Running. 89 percent complete
+Progress report on object 546232
+Process Running. 89 percent complete
+Progress report on object 546232
+Process Running. 89 percent complete
+Progress report on object 546232
+Process Running. 90 percent complete
+Progress report on object 546232
+Process Running. 90 percent complete
+Progress report on object 546232
+Process Running. 91 percent complete
+Progress report on object 546232
+Process Running. 91 percent complete
+Progress report on object 546232
+Process Running. 91 percent complete
+Progress report on object 546232
+Process Running. 91 percent complete
+Progress report on object 546232
+Process Running. 91 percent complete
+Progress report on object 546232
+Process Running. 92 percent complete
+Progress report on object 546232
+Process Running. 92 percent complete
+Progress report on object 546232
+Process Running. 93 percent complete
+Progress report on object 546232
+Process Running. 93 percent complete
+Progress report on object 546232
+Process Running. 93 percent complete
+Progress report on object 546232
+Process Running. 93 percent complete
+Progress report on object 546232
+Process Running. 94 percent complete
+Progress report on object 546232
+Process Running. 94 percent complete
+Progress report on object 546232
+Process Running. 95 percent complete
+Progress report on object 546232
+Process Running. 95 percent complete
+Progress report on object 546232
+Process Running. 95 percent complete
+Progress report on object 546232
+Process Running. 95 percent complete
+Progress report on object 546232
+Process Running. 95 percent complete
+Progress report on object 546232
+Process Running. 96 percent complete
+Progress report on object 546232
+Process Running. 96 percent complete
+Progress report on object 546232
+Process Running. 97 percent complete
+Progress report on object 546232
+Process Running. 97 percent complete
+Progress report on object 546232
+Process Running. 97 percent complete
+Progress report on object 546232
+Process Running. 97 percent complete
+Progress report on object 546232
+Process Running. 98 percent complete
+Progress report on object 546232
+Process Running. 98 percent complete
+Progress report on object 546232
+Process Running. 99 percent complete
+Progress report on object 546232
+Process Running. 99 percent complete
+Progress report on object 546232
+Process Running. 99 percent complete
+Progress report on object 546232
+Process Running. 99 percent complete
+Progress report on object 546232
+DONE!
+Getting Hit List from Hexagon...
+
+hex546232_HMB25-2_R1.csv  written to file
+Archiving unaligned reads from Hexagon...
+
+Waiting for unaligned reads from Hexagon...
+
+checking for obj id
+cmdr=objList&type=%5Enuc-read%24&search=UnalignedReads-546232_HMB25-2_R1.fastq&prop=name&bust=1476369456692
+546235  processing
+Retrieving svc-archiver obj ID to check on archival process
+Waiting for obj id to be gererated...
+cmdr=objList&type=svc-archiver&search=UnalignedReads-546232_HMB25-2_R1.fastq&prop=name&bust=1476369456492
+546234 UnalignedReads-546232_HMB25-2_R1.fastq
+Progress report on object 546234
+Process Running. 20 percent complete
+Progress report on object 546234
+Process Running. 25 percent complete
+Progress report on object 546234
+Process Running. 25 percent complete
+Progress report on object 546234
+Process Running. 41 percent complete
+Progress report on object 546234
+Process Running. 53 percent complete
+Progress report on object 546234
+Process Running. 53 percent complete
+Progress report on object 546234
+Process Running. 62 percent complete
+Progress report on object 546234
+Process Running. 71 percent complete
+Progress report on object 546234
+Process Running. 80 percent complete
+Progress report on object 546234
+Process in submision
+Progress report on object 546234
+Process in submision
+Progress report on object 546234
+Process in submision
+Progress report on object 546234
+DONE!
+Submitting CensuScope Process
+
+cmdr=-qpProcSubmit&svc=svc-dna-screening&prop.svc-dna-screening.action=2&prop.svc-dna-screening._type=svc-dna-screening&prop.svc-dna-screening.alignSelector.21=svc-align-blast&prop.svc-dna-screening.automanual.22=0&prop.svc-dna-screening.batch_svc.5=single&prop.svc-dna-screening.blastWordSize.29=28&prop.svc-dna-screening.CensusIterations.6=1&prop.svc-dna-screening.CensuslimitIterations.7=5&prop.svc-dna-screening.chunk_size.9=4000&prop.svc-dna-screening.cutOffvalue.11=0.0005&prop.svc-dna-screening.filterNs.12=1&prop.svc-dna-screening.isPostponed.20.3=0&prop.svc-dna-screening.name.1=HMB25-2_R2&prop.svc-dna-screening.query.1.1=546235&prop.svc-dna-screening.query.1.23=&prop.svc-dna-screening.reqPriority.20.7=0&prop.svc-dna-screening.resultInQueryDir.26=0&prop.svc-dna-screening.Sample.15=2500&prop.svc-dna-screening.scissors.16=hiveseq&prop.svc-dna-screening.selfStopping.27=0&prop.svc-dna-screening.slice.17=0&prop.svc-dna-screening.split.18=-&prop.svc-dna-screening.storeAlignments.28=1&prop.svc-dna-screening.subject=513957&prop.svc-dna-screening.submitter.33=dna-screening&prop.svc-dna-screening.svc=dna-screening&prop.svc-dna-screening.svcTitle=CensuScope&prop.svc-dna-screening.systemVersion.20.11=1.1&prop.svc-dna-screening.taxDepth.25=leaf&prop.svc-dna-screening.textBasedColumn.31.1=0&prop.svc-dna-screening.textBasedFileSeparator.31.2=1
+Your CensuScope ID is:  546238
+Progress report on object 546238
+Process in submision
+Progress report on object 546238
+Process Running. 9 percent complete
+Progress report on object 546238
+Process Running. 9 percent complete
+Progress report on object 546238
+Process Running. 9 percent complete
+Progress report on object 546238
+Process Running. 12 percent complete
+Progress report on object 546238
+Process Running. 12 percent complete
+Progress report on object 546238
+Process Running. 12 percent complete
+Progress report on object 546238
+Process Running. 15 percent complete
+Progress report on object 546238
+Process Running. 33 percent complete
+Progress report on object 546238
+Process Running. 33 percent complete
+Progress report on object 546238
+Process Running. 33 percent complete
+Progress report on object 546238
+Process Running. 33 percent complete
+Progress report on object 546238
+Process Running. 36 percent complete
+Progress report on object 546238
+Process Running. 36 percent complete
+Progress report on object 546238
+Process Running. 39 percent complete
+Progress report on object 546238
+Process Running. 46 percent complete
+Progress report on object 546238
+Process Running. 46 percent complete
+Progress report on object 546238
+Process Running. 63 percent complete
+Progress report on object 546238
+Process Running. 71 percent complete
+Progress report on object 546238
+Process Running. 71 percent complete
+Progress report on object 546238
+Process Running. 71 percent complete
+Progress report on object 546238
+Process Running. 71 percent complete
+Progress report on object 546238
+Process Running. 71 percent complete
+Progress report on object 546238
+Process Running. 74 percent complete
+Progress report on object 546238
+Process Running. 74 percent complete
+Progress report on object 546238
+Process Running. 74 percent complete
+Progress report on object 546238
+Process Running. 74 percent complete
+Progress report on object 546238
+Process in submision
+Progress report on object 546238
+Process Running. 86 percent complete
+Progress report on object 546238
+DONE!
+Getting Hit List from CensuScope...
+
+cen546238_HMB25-2_R2.csv  written to file
+9004671 376 CP000139.1
+21539837 265 FP929033.1
+1243262 116 FP929046.1
+19240004 95 AE015928.1
+18741900 90 CP002544.1
+5608853 85 CP000140.1
+14027417 67 FP929045.1
+9501121 55 CP003274.1
+1572969 51 CP007619.1
+6878559 51 HF545616.1
+JQ995537.1  is black Listed 46
+18518873 40 FP929053.1
+15049399 35 U30316.1
+6767482 29 AP013105.1
+336818 26 FP929055.1
+1307574 24 CP008741.1
+18693111 21 FP929061.1
+15795192 21 FP929032.1
+6363959 20 CP001104.1
+9589945 17 FP929051.1
+19667764 16 FP929054.1
+AB646744.1  is black Listed 14
+6747852 14 CP001107.1
+17530582 13 FP929043.1
+72213 13 CP002530.1
+3178265 12 CP009913.1
+22067907 12 AP006841.1
+15854442 10 FP929050.1
+298208 10 CP001726.1
+14923809 10 FP929038.1
+18062853 10 HF545617.1
+513957,9004671,9004671;513957,21539837,21539837;513957,1243262,1243262;513957,19240004,19240004;513957,18741900,18741900;513957,5608853,5608853;513957,14027417,14027417;513957,9501121,9501121;513957,1572969,1572969;513957,6878559,6878559;513957,18518873,18518873;513957,15049399,15049399;513957,6767482,6767482;513957,336818,336818;513957,1307574,1307574;513957,18693111,18693111;513957,15795192,15795192;513957,6363959,6363959;513957,9589945,9589945;513957,19667764,19667764;513957,6747852,6747852;513957,17530582,17530582;513957,72213,72213;513957,3178265,3178265;513957,22067907,22067907;513957,15854442,15854442;513957,298208,298208;513957,14923809,14923809;513957,18062853,18062853
+Creating Hive Seq Obj
+
+cmdr=-qpProcSubmit&svc=dna-hiveseq&raw=1&prop.svc-hiveseq.name.1=HMB25-2HiveSeq_R2&prop.svc-hiveseq.AlgorithmsName.11.0=0&prop.svc-hiveseq.lowcomplexityactive.12.0=0&prop.svc-hiveseq.lowcomplexityWindow.12.0=15&prop.svc-hiveseq.lowcomplexityEntropy.12.0=1&prop.svc-hiveseq.lowcomplexityOption.12.0=0&prop.svc-hiveseq.AdaptersFilter.13=0&prop.svc-hiveseq.adaptersactive.13.0=0&prop.svc-hiveseq.adaptersObjId.13.0=0&prop.svc-hiveseq.adaptersReverse.13.0.0=0&prop.svc-hiveseq.adaptersComplement.13.0.1=0&prop.svc-hiveseq.adaptersMaxmissmatches.13.0=2&prop.svc-hiveseq.adaptersMinLength.13.0=10&prop.svc-hiveseq.primersactive.17.0=0&prop.svc-hiveseq.primersReverse.17.0.0=0&prop.svc-hiveseq.primersComplement.17.0.1=0&prop.svc-hiveseq.primersKeep.17.0=0&prop.svc-hiveseq.primersMaxmissmatches.17.0=2&prop.svc-hiveseq.primersMinLength.17.0=100&prop.svc-hiveseq.QualityFilter.19=0&prop.svc-hiveseq.qualityactive.19.0=0&prop.svc-hiveseq.qualityPercentage.19.0=100&prop.svc-hiveseq.qualityThreshold.19.0=50&prop.svc-hiveseq.trimMinimum.20.0=-1&prop.svc-hiveseq.trimMaximum.20.0=-1&prop.svc-hiveseq.removeMin.21.0.0=-1&prop.svc-hiveseq.removeMax.21.0.0=-1&prop.svc-hiveseq.lengthSeqFilter.16=0&prop.svc-hiveseq.minimumSeqLength.16.0=0&prop.svc-hiveseq.idfilteractive.15.0=0&prop.svc-hiveseq.idlistObjId.15.0=0&prop.svc-hiveseq.listExclusion.15.0=0&prop.svc-hiveseq.randomizerNumValue.22.0=100&prop.svc-hiveseq.randomizerNoise.22.1=0&prop.svc-hiveseq.randomizerMinLength.22.2=100&prop.svc-hiveseq.randomizerMaxLength.22.3=100&prop.svc-hiveseq.randomizerRevComp.22.6=0&prop.svc-hiveseq.randLengthNorm.22.7=1&prop.svc-hiveseq.seqExclusionOption.23.1=0&prop.svc-hiveseq.seqExclusionRevComp.23.2=0&prop.svc-hiveseq.hiveseqQry.24=513957%2C9004671%2C9004671%3B513957%2C21539837%2C21539837%3B513957%2C1243262%2C1243262%3B513957%2C19240004%2C19240004%3B513957%2C18741900%2C18741900%3B513957%2C5608853%2C5608853%3B513957%2C14027417%2C14027417%3B513957%2C9501121%2C9501121%3B513957%2C1572969%2C1572969%3B513957%2C6878559%2C6878559%3B513957%2C18518873%2C18518873%3B513957%2C15049399%2C15049399%3B513957%2C6767482%2C6767482%3B513957%2C336818%2C336818%3B513957%2C1307574%2C1307574%3B513957%2C18693111%2C18693111%3B513957%2C15795192%2C15795192%3B513957%2C6363959%2C6363959%3B513957%2C9589945%2C9589945%3B513957%2C19667764%2C19667764%3B513957%2C6747852%2C6747852%3B513957%2C17530582%2C17530582%3B513957%2C72213%2C72213%3B513957%2C3178265%2C3178265%3B513957%2C22067907%2C22067907%3B513957%2C15854442%2C15854442%3B513957%2C298208%2C298208%3B513957%2C14923809%2C14923809%3B513957%2C18062853%2C18062853&prop.svc-hiveseq.inputMode.25=0&prop.svc-hiveseq.pecPairEndFile.18.0=0&prop.svc-hiveseq.pecMinMatchLen.18.0=15&prop.svc-hiveseq.pecQualities.18.0=1&prop.svc-hiveseq.pecKeepAlignments.18.0=0&prop.svc-hiveseq.denovoExtSizemer.14.0=16&prop.svc-hiveseq.denovoExtSizeFilter.14.0=0&prop.svc-hiveseq.denovoExtRptFilter.14.0=0&prop.svc-hiveseq.denovoExtFirstStage.14.0=1&prop.svc-hiveseq.denovoOutFilterLength.14.0=1000&prop.svc-hiveseq.denovoMissmatchesPercentage.14.0=2&prop.svc-hiveseq.maxNumberQueryForHiveseq.25=-1&prop.svc-hiveseq.inputMode.27.0=1&prop.svc-hiveseq.isFastQFile.26.0=1&prop.svc-hiveseq.keepOriginalID.26.1=1&prop.svc-hiveseq.appendLength.26.2=1&prop.svc-hiveseq.isHiveseq.26.3=0&prop.svc-hiveseq.isRevComp.26.4=0&prop.svc-hiveseq.submitter.29=dna-hiveseq&prop.svc-hiveseq._type=svc-hiveseq&prop.svc-hiveseq.parent_proc_ids.9=3101923&prop.svc-hiveseq.action.10.0=2&prop.svc-hiveseq.isPostponed.10.3=0&prop.svc-hiveseq.reqPriority.10.7=0
+Progress report on object 546243
+Process in submision
+Progress report on object 546243
+Process Running. 43 percent complete
+Progress report on object 546243
+Process Running. 58 percent complete
+Progress report on object 546243
+Process in submision
+Progress report on object 546243
+Process in submision
+Progress report on object 546243
+DONE!
+Your HiveSeq ID is:  546244
+Creating Hexagon Alignment Object
+
+cmdr=-qpProcSubmit&svc=dna-hexagon&raw=1&prop.svc-align-hexagon.alignSelector.9=svc-align-hexagon&prop.svc-align-hexagon.name.11=HMB25-2_R2&prop.svc-align-hexagon.query.1=546235&prop.svc-align-hexagon.query.1.23=&prop.svc-align-hexagon.submitter.14=dna-hexagon&prop.svc-align-hexagon.isbackward.7.11=1&prop.svc-align-hexagon.isextendtails.7.12=0&prop.svc-align-hexagon.maxExtensionGaps.7.13=0&prop.svc-align-hexagon.reverseEngine.7.3=0&prop.svc-align-hexagon.isoptimize.7.6=1&prop.svc-align-hexagon.hashStp.7.7=auto&prop.svc-align-hexagon.hashCompileStp.7.8=auto&prop.svc-align-hexagon.looseExtenderMinimumLengthPercent.7.0=66&prop.svc-align-hexagon.looseExtenderMismatchesPercent.7.4=25&prop.svc-align-hexagon.alignmentEngine.7.9=1&prop.svc-align-hexagon.maxHashBin.7.2=50&prop.svc-align-hexagon.selfQueryPosJumpInNonPerfectAlignment.7.1=1&prop.svc-align-hexagon.useRedundSim.7.5=1&prop.svc-align-hexagon.computeDiagonalWidth.7.10=auto&prop.svc-align-hexagon.searchRepeatsAndTrans.5.0=0&prop.svc-align-hexagon.isglobal.6.7=0&prop.svc-align-hexagon.costGapNext.6.5=-4&prop.svc-align-hexagon.costGapOpen.6.4=-12&prop.svc-align-hexagon.costMatch.6.6=5&prop.svc-align-hexagon.costMismatchNext.6.2=-6&prop.svc-align-hexagon.costMismatch.6.1=-4&prop.svc-align-hexagon.seed.6.3=11&prop.svc-align-hexagon.allowShorterEnds.6.0=0&prop.svc-align-hexagon.maxNumberQuery.24=all&prop.svc-align-hexagon.scissors.28=hiveseq&prop.svc-align-hexagon.complexityRefEntropy.3.0.0=1.2&prop.svc-align-hexagon.complexityRefWindow.3.0.0=30&prop.svc-align-hexagon.complexityEntropy.3.1.0=1.2&prop.svc-align-hexagon.complexityWindow.3.1.0=30&prop.svc-align-hexagon.keepAllMatches.33=3&2prop.svc-align-hexagon.maxHitsPerRead.23=200&prop.svc-align-hexagon.minMatchLen.25=45&prop.svc-align-hexagon.maxMissQueryPercent.2.0=15&prop.svc-align-hexagon.considerGoodSubalignments.2.0=1&prop.svc-align-hexagon.slice.15=500000&prop.svc-align-hexagon._type=svc-align-hexagon&prop.svc-align-hexagon.subject.16=546244&prop.svc-align-hexagon.scoreFilter.21=None&prop.svc-align-hexagon.action.0.0=2&prop.svc-align-hexagon.doubleHash.20=0&prop.svc-align-hexagon.doubleStagePerfect.30=1&prop.svc-align-hexagon.split.17=query
+Your Hexagon ID is:  546247
+Progress report on object 546247
+Process in submision
+Progress report on object 546247
+Process Running. 0 percent complete
+Progress report on object 546247
+Process Running. 3 percent complete
+Progress report on object 546247
+Process Running. 6 percent complete
+Progress report on object 546247
+Process Running. 7 percent complete
+Progress report on object 546247
+Process Running. 11 percent complete
+Progress report on object 546247
+Process Running. 15 percent complete
+Progress report on object 546247
+Process Running. 19 percent complete
+Progress report on object 546247
+Process Running. 22 percent complete
+Progress report on object 546247
+Process Running. 27 percent complete
+Progress report on object 546247
+Process Running. 27 percent complete
+Progress report on object 546247
+Process Running. 30 percent complete
+Progress report on object 546247
+Process Running. 35 percent complete
+Progress report on object 546247
+Process Running. 38 percent complete
+Progress report on object 546247
+Process Running. 43 percent complete
+Progress report on object 546247
+Process Running. 43 percent complete
+Progress report on object 546247
+Process Running. 47 percent complete
+Progress report on object 546247
+Process Running. 51 percent complete
+Progress report on object 546247
+Process Running. 56 percent complete
+Progress report on object 546247
+Process Running. 57 percent complete
+Progress report on object 546247
+Process Running. 57 percent complete
+Progress report on object 546247
+Process Running. 58 percent complete
+Progress report on object 546247
+Process Running. 58 percent complete
+Progress report on object 546247
+Process Running. 59 percent complete
+Progress report on object 546247
+Process Running. 59 percent complete
+Progress report on object 546247
+Process Running. 60 percent complete
+Progress report on object 546247
+Process Running. 60 percent complete
+Progress report on object 546247
+Process Running. 61 percent complete
+Progress report on object 546247
+Process Running. 61 percent complete
+Progress report on object 546247
+Process Running. 62 percent complete
+Progress report on object 546247
+Process Running. 62 percent complete
+Progress report on object 546247
+Process Running. 63 percent complete
+Progress report on object 546247
+Process Running. 63 percent complete
+Progress report on object 546247
+Process Running. 64 percent complete
+Progress report on object 546247
+Process Running. 64 percent complete
+Progress report on object 546247
+Process Running. 65 percent complete
+Progress report on object 546247
+Process Running. 65 percent complete
+Progress report on object 546247
+Process Running. 66 percent complete
+Progress report on object 546247
+Process Running. 66 percent complete
+Progress report on object 546247
+Process Running. 66 percent complete
+Progress report on object 546247
+Process Running. 67 percent complete
+Progress report on object 546247
+Process Running. 67 percent complete
+Progress report on object 546247
+Process Running. 68 percent complete
+Progress report on object 546247
+Process Running. 68 percent complete
+Progress report on object 546247
+Process Running. 69 percent complete
+Progress report on object 546247
+Process Running. 69 percent complete
+Progress report on object 546247
+Process Running. 70 percent complete
+Progress report on object 546247
+Process Running. 70 percent complete
+Progress report on object 546247
+Process Running. 71 percent complete
+Progress report on object 546247
+Process Running. 71 percent complete
+Progress report on object 546247
+Process Running. 72 percent complete
+Progress report on object 546247
+Process Running. 72 percent complete
+Progress report on object 546247
+Process Running. 73 percent complete
+Progress report on object 546247
+Process Running. 73 percent complete
+Progress report on object 546247
+Process Running. 74 percent complete
+Progress report on object 546247
+Process Running. 74 percent complete
+Progress report on object 546247
+Process Running. 75 percent complete
+Progress report on object 546247
+Process Running. 75 percent complete
+Progress report on object 546247
+Process Running. 76 percent complete
+Progress report on object 546247
+Process Running. 76 percent complete
+Progress report on object 546247
+Process Running. 77 percent complete
+Progress report on object 546247
+Process Running. 77 percent complete
+Progress report on object 546247
+Process Running. 78 percent complete
+Progress report on object 546247
+Process Running. 78 percent complete
+Progress report on object 546247
+Process Running. 79 percent complete
+Progress report on object 546247
+Process Running. 79 percent complete
+Progress report on object 546247
+Process Running. 80 percent complete
+Progress report on object 546247
+Process Running. 80 percent complete
+Progress report on object 546247
+Process Running. 81 percent complete
+Progress report on object 546247
+Process Running. 81 percent complete
+Progress report on object 546247
+Process Running. 82 percent complete
+Progress report on object 546247
+Process Running. 82 percent complete
+Progress report on object 546247
+Process Running. 82 percent complete
+Progress report on object 546247
+Process Running. 83 percent complete
+Progress report on object 546247
+Process Running. 83 percent complete
+Progress report on object 546247
+Process Running. 84 percent complete
+Progress report on object 546247
+Process Running. 84 percent complete
+Progress report on object 546247
+Process Running. 85 percent complete
+Progress report on object 546247
+Process Running. 85 percent complete
+Progress report on object 546247
+Process Running. 86 percent complete
+Progress report on object 546247
+Process Running. 86 percent complete
+Progress report on object 546247
+Process Running. 87 percent complete
+Progress report on object 546247
+Process Running. 87 percent complete
+Progress report on object 546247
+Process Running. 88 percent complete
+Progress report on object 546247
+Process Running. 88 percent complete
+Progress report on object 546247
+Process Running. 89 percent complete
+Progress report on object 546247
+Process Running. 89 percent complete
+Progress report on object 546247
+Process Running. 90 percent complete
+Progress report on object 546247
+Process Running. 90 percent complete
+Progress report on object 546247
+Process Running. 91 percent complete
+Progress report on object 546247
+Process Running. 91 percent complete
+Progress report on object 546247
+Process Running. 92 percent complete
+Progress report on object 546247
+Process Running. 92 percent complete
+Progress report on object 546247
+Process Running. 93 percent complete
+Progress report on object 546247
+Process Running. 93 percent complete
+Progress report on object 546247
+Process Running. 94 percent complete
+Progress report on object 546247
+Process Running. 94 percent complete
+Progress report on object 546247
+Process Running. 95 percent complete
+Progress report on object 546247
+Process Running. 95 percent complete
+Progress report on object 546247
+Process Running. 96 percent complete
+Progress report on object 546247
+Process Running. 96 percent complete
+Progress report on object 546247
+Process Running. 97 percent complete
+Progress report on object 546247
+Process Running. 97 percent complete
+Progress report on object 546247
+Process Running. 98 percent complete
+Progress report on object 546247
+Process Running. 98 percent complete
+Progress report on object 546247
+Process Running. 99 percent complete
+Progress report on object 546247
+Process Running. 99 percent complete
+Progress report on object 546247
+DONE!
+Getting Hit List from Hexagon...
+
+hex546247_HMB25-2_R2.csv  written to file
+Archiving unaligned reads from Hexagon...
+
+Waiting for unaligned reads from Hexagon...
+
+checking for obj id
+cmdr=objList&type=%5Enuc-read%24&search=UnalignedReads-546247_HMB25-2_R2.fastq&prop=name&bust=1476369456692
+546256  processing
+Retrieving svc-archiver obj ID to check on archival process
+Waiting for obj id to be gererated...
+cmdr=objList&type=svc-archiver&search=UnalignedReads-546247_HMB25-2_R2.fastq&prop=name&bust=1476369456492
+546255 UnalignedReads-546247_HMB25-2_R2.fastq
+Progress report on object 546255
+Process Running. 17 percent complete
+Progress report on object 546255
+Process Running. 25 percent complete
+Progress report on object 546255
+Process Running. 25 percent complete
+Progress report on object 546255
+Process Running. 44 percent complete
+Progress report on object 546255
+Process Running. 44 percent complete
+Progress report on object 546255
+Process Running. 53 percent complete
+Progress report on object 546255
+Process Running. 62 percent complete
+Progress report on object 546255
+Process Running. 62 percent complete
+Progress report on object 546255
+Process Running. 63 percent complete
+Progress report on object 546255
+Process in submision
+Progress report on object 546255
+Process Running. 82 percent complete
+Progress report on object 546255
+Process in submision
+Progress report on object 546255
+DONE!
+Submitting CensuScope Process
+
+cmdr=-qpProcSubmit&svc=svc-dna-screening&prop.svc-dna-screening.action=2&prop.svc-dna-screening._type=svc-dna-screening&prop.svc-dna-screening.alignSelector.21=svc-align-blast&prop.svc-dna-screening.automanual.22=0&prop.svc-dna-screening.batch_svc.5=single&prop.svc-dna-screening.blastWordSize.29=28&prop.svc-dna-screening.CensusIterations.6=1&prop.svc-dna-screening.CensuslimitIterations.7=5&prop.svc-dna-screening.chunk_size.9=4000&prop.svc-dna-screening.cutOffvalue.11=0.0005&prop.svc-dna-screening.filterNs.12=1&prop.svc-dna-screening.isPostponed.20.3=0&prop.svc-dna-screening.name.1=HMB25-2_R3&prop.svc-dna-screening.query.1.1=546256&prop.svc-dna-screening.query.1.23=&prop.svc-dna-screening.reqPriority.20.7=0&prop.svc-dna-screening.resultInQueryDir.26=0&prop.svc-dna-screening.Sample.15=2500&prop.svc-dna-screening.scissors.16=hiveseq&prop.svc-dna-screening.selfStopping.27=0&prop.svc-dna-screening.slice.17=0&prop.svc-dna-screening.split.18=-&prop.svc-dna-screening.storeAlignments.28=1&prop.svc-dna-screening.subject=513957&prop.svc-dna-screening.submitter.33=dna-screening&prop.svc-dna-screening.svc=dna-screening&prop.svc-dna-screening.svcTitle=CensuScope&prop.svc-dna-screening.systemVersion.20.11=1.1&prop.svc-dna-screening.taxDepth.25=leaf&prop.svc-dna-screening.textBasedColumn.31.1=0&prop.svc-dna-screening.textBasedFileSeparator.31.2=1
+Your CensuScope ID is:  546258
+Progress report on object 546258
+Process in submision
+Progress report on object 546258
+Process Running. 9 percent complete
+Progress report on object 546258
+Process Running. 9 percent complete
+Progress report on object 546258
+Process Running. 9 percent complete
+Progress report on object 546258
+Process Running. 9 percent complete
+Progress report on object 546258
+Process Running. 15 percent complete
+Progress report on object 546258
+Process Running. 15 percent complete
+Progress report on object 546258
+Process Running. 18 percent complete
+Progress report on object 546258
+Process Running. 28 percent complete
+Progress report on object 546258
+Process Running. 28 percent complete
+Progress report on object 546258
+Process Running. 45 percent complete
+Progress report on object 546258
+Process Running. 48 percent complete
+Progress report on object 546258
+Process Running. 48 percent complete
+Progress report on object 546258
+Process Running. 48 percent complete
+Progress report on object 546258
+Process Running. 54 percent complete
+Progress report on object 546258
+Process Running. 54 percent complete
+Progress report on object 546258
+Process Running. 63 percent complete
+Progress report on object 546258
+Process Running. 71 percent complete
+Progress report on object 546258
+Process Running. 71 percent complete
+Progress report on object 546258
+Process Running. 71 percent complete
+Progress report on object 546258
+Process Running. 71 percent complete
+Progress report on object 546258
+Process Running. 74 percent complete
+Progress report on object 546258
+Process Running. 74 percent complete
+Progress report on object 546258
+Process Running. 74 percent complete
+Progress report on object 546258
+Process Running. 74 percent complete
+Progress report on object 546258
+Process in submision
+Progress report on object 546258
+Process Running. 86 percent complete
+Progress report on object 546258
+DONE!
+Getting Hit List from CensuScope...
+
+cen546258_HMB25-2_R3.csv  written to file
+9004671 391 CP000139.1
+21539837 176 FP929033.1
+1243262 166 FP929046.1
+18741900 80 CP002544.1
+6878559 73 HF545616.1
+9501121 65 CP003274.1
+1572969 63 CP007619.1
+19240004 53 AE015928.1
+14027417 49 FP929045.1
+JQ995537.1  is black Listed 47
+5608853 44 CP000140.1
+336818 36 FP929055.1
+1307574 30 CP008741.1
+18693111 30 FP929061.1
+18518873 28 FP929053.1
+6767482 25 AP013105.1
+15795192 20 FP929032.1
+19230125 19 JF795575.1
+13922375 17 FP929052.1
+9031380 15 LK931720.1
+22067907 14 AP006841.1
+18381426 13 FP929059.1
+AB646744.1  is black Listed 11
+19264583 11 FP929047.1
+18062853 11 HF545617.1
+19667764 10 FP929054.1
+51749 10 CP002352.1
+8554022 10 CP001840.1
+8554020 10 CP001361.1
+487354 10 CP001071.1
+513957,9004671,9004671;513957,21539837,21539837;513957,1243262,1243262;513957,18741900,18741900;513957,6878559,6878559;513957,9501121,9501121;513957,1572969,1572969;513957,19240004,19240004;513957,14027417,14027417;513957,5608853,5608853;513957,336818,336818;513957,1307574,1307574;513957,18693111,18693111;513957,18518873,18518873;513957,6767482,6767482;513957,15795192,15795192;513957,19230125,19230125;513957,13922375,13922375;513957,9031380,9031380;513957,22067907,22067907;513957,18381426,18381426;513957,19264583,19264583;513957,18062853,18062853;513957,19667764,19667764;513957,51749,51749;513957,8554022,8554022;513957,8554020,8554020;513957,487354,487354
+Creating Hive Seq Obj
+
+cmdr=-qpProcSubmit&svc=dna-hiveseq&raw=1&prop.svc-hiveseq.name.1=HMB25-2HiveSeq_R3&prop.svc-hiveseq.AlgorithmsName.11.0=0&prop.svc-hiveseq.lowcomplexityactive.12.0=0&prop.svc-hiveseq.lowcomplexityWindow.12.0=15&prop.svc-hiveseq.lowcomplexityEntropy.12.0=1&prop.svc-hiveseq.lowcomplexityOption.12.0=0&prop.svc-hiveseq.AdaptersFilter.13=0&prop.svc-hiveseq.adaptersactive.13.0=0&prop.svc-hiveseq.adaptersObjId.13.0=0&prop.svc-hiveseq.adaptersReverse.13.0.0=0&prop.svc-hiveseq.adaptersComplement.13.0.1=0&prop.svc-hiveseq.adaptersMaxmissmatches.13.0=2&prop.svc-hiveseq.adaptersMinLength.13.0=10&prop.svc-hiveseq.primersactive.17.0=0&prop.svc-hiveseq.primersReverse.17.0.0=0&prop.svc-hiveseq.primersComplement.17.0.1=0&prop.svc-hiveseq.primersKeep.17.0=0&prop.svc-hiveseq.primersMaxmissmatches.17.0=2&prop.svc-hiveseq.primersMinLength.17.0=100&prop.svc-hiveseq.QualityFilter.19=0&prop.svc-hiveseq.qualityactive.19.0=0&prop.svc-hiveseq.qualityPercentage.19.0=100&prop.svc-hiveseq.qualityThreshold.19.0=50&prop.svc-hiveseq.trimMinimum.20.0=-1&prop.svc-hiveseq.trimMaximum.20.0=-1&prop.svc-hiveseq.removeMin.21.0.0=-1&prop.svc-hiveseq.removeMax.21.0.0=-1&prop.svc-hiveseq.lengthSeqFilter.16=0&prop.svc-hiveseq.minimumSeqLength.16.0=0&prop.svc-hiveseq.idfilteractive.15.0=0&prop.svc-hiveseq.idlistObjId.15.0=0&prop.svc-hiveseq.listExclusion.15.0=0&prop.svc-hiveseq.randomizerNumValue.22.0=100&prop.svc-hiveseq.randomizerNoise.22.1=0&prop.svc-hiveseq.randomizerMinLength.22.2=100&prop.svc-hiveseq.randomizerMaxLength.22.3=100&prop.svc-hiveseq.randomizerRevComp.22.6=0&prop.svc-hiveseq.randLengthNorm.22.7=1&prop.svc-hiveseq.seqExclusionOption.23.1=0&prop.svc-hiveseq.seqExclusionRevComp.23.2=0&prop.svc-hiveseq.hiveseqQry.24=513957%2C9004671%2C9004671%3B513957%2C21539837%2C21539837%3B513957%2C1243262%2C1243262%3B513957%2C18741900%2C18741900%3B513957%2C6878559%2C6878559%3B513957%2C9501121%2C9501121%3B513957%2C1572969%2C1572969%3B513957%2C19240004%2C19240004%3B513957%2C14027417%2C14027417%3B513957%2C5608853%2C5608853%3B513957%2C336818%2C336818%3B513957%2C1307574%2C1307574%3B513957%2C18693111%2C18693111%3B513957%2C18518873%2C18518873%3B513957%2C6767482%2C6767482%3B513957%2C15795192%2C15795192%3B513957%2C19230125%2C19230125%3B513957%2C13922375%2C13922375%3B513957%2C9031380%2C9031380%3B513957%2C22067907%2C22067907%3B513957%2C18381426%2C18381426%3B513957%2C19264583%2C19264583%3B513957%2C18062853%2C18062853%3B513957%2C19667764%2C19667764%3B513957%2C51749%2C51749%3B513957%2C8554022%2C8554022%3B513957%2C8554020%2C8554020%3B513957%2C487354%2C487354&prop.svc-hiveseq.inputMode.25=0&prop.svc-hiveseq.pecPairEndFile.18.0=0&prop.svc-hiveseq.pecMinMatchLen.18.0=15&prop.svc-hiveseq.pecQualities.18.0=1&prop.svc-hiveseq.pecKeepAlignments.18.0=0&prop.svc-hiveseq.denovoExtSizemer.14.0=16&prop.svc-hiveseq.denovoExtSizeFilter.14.0=0&prop.svc-hiveseq.denovoExtRptFilter.14.0=0&prop.svc-hiveseq.denovoExtFirstStage.14.0=1&prop.svc-hiveseq.denovoOutFilterLength.14.0=1000&prop.svc-hiveseq.denovoMissmatchesPercentage.14.0=2&prop.svc-hiveseq.maxNumberQueryForHiveseq.25=-1&prop.svc-hiveseq.inputMode.27.0=1&prop.svc-hiveseq.isFastQFile.26.0=1&prop.svc-hiveseq.keepOriginalID.26.1=1&prop.svc-hiveseq.appendLength.26.2=1&prop.svc-hiveseq.isHiveseq.26.3=0&prop.svc-hiveseq.isRevComp.26.4=0&prop.svc-hiveseq.submitter.29=dna-hiveseq&prop.svc-hiveseq._type=svc-hiveseq&prop.svc-hiveseq.parent_proc_ids.9=3101923&prop.svc-hiveseq.action.10.0=2&prop.svc-hiveseq.isPostponed.10.3=0&prop.svc-hiveseq.reqPriority.10.7=0
+Progress report on object 546262
+Process in submision
+Progress report on object 546262
+Process Running. 44 percent complete
+Progress report on object 546262
+Process in submision
+Progress report on object 546262
+Process in submision
+Progress report on object 546262
+Process in submision
+Progress report on object 546262
+DONE!
+Your HiveSeq ID is:  546263
+Creating Hexagon Alignment Object
+
+cmdr=-qpProcSubmit&svc=dna-hexagon&raw=1&prop.svc-align-hexagon.alignSelector.9=svc-align-hexagon&prop.svc-align-hexagon.name.11=HMB25-2_R3&prop.svc-align-hexagon.query.1=546256&prop.svc-align-hexagon.query.1.23=&prop.svc-align-hexagon.submitter.14=dna-hexagon&prop.svc-align-hexagon.isbackward.7.11=1&prop.svc-align-hexagon.isextendtails.7.12=0&prop.svc-align-hexagon.maxExtensionGaps.7.13=0&prop.svc-align-hexagon.reverseEngine.7.3=0&prop.svc-align-hexagon.isoptimize.7.6=1&prop.svc-align-hexagon.hashStp.7.7=auto&prop.svc-align-hexagon.hashCompileStp.7.8=auto&prop.svc-align-hexagon.looseExtenderMinimumLengthPercent.7.0=66&prop.svc-align-hexagon.looseExtenderMismatchesPercent.7.4=25&prop.svc-align-hexagon.alignmentEngine.7.9=1&prop.svc-align-hexagon.maxHashBin.7.2=50&prop.svc-align-hexagon.selfQueryPosJumpInNonPerfectAlignment.7.1=1&prop.svc-align-hexagon.useRedundSim.7.5=1&prop.svc-align-hexagon.computeDiagonalWidth.7.10=auto&prop.svc-align-hexagon.searchRepeatsAndTrans.5.0=0&prop.svc-align-hexagon.isglobal.6.7=0&prop.svc-align-hexagon.costGapNext.6.5=-4&prop.svc-align-hexagon.costGapOpen.6.4=-12&prop.svc-align-hexagon.costMatch.6.6=5&prop.svc-align-hexagon.costMismatchNext.6.2=-6&prop.svc-align-hexagon.costMismatch.6.1=-4&prop.svc-align-hexagon.seed.6.3=11&prop.svc-align-hexagon.allowShorterEnds.6.0=0&prop.svc-align-hexagon.maxNumberQuery.24=all&prop.svc-align-hexagon.scissors.28=hiveseq&prop.svc-align-hexagon.complexityRefEntropy.3.0.0=1.2&prop.svc-align-hexagon.complexityRefWindow.3.0.0=30&prop.svc-align-hexagon.complexityEntropy.3.1.0=1.2&prop.svc-align-hexagon.complexityWindow.3.1.0=30&prop.svc-align-hexagon.keepAllMatches.33=3&2prop.svc-align-hexagon.maxHitsPerRead.23=200&prop.svc-align-hexagon.minMatchLen.25=45&prop.svc-align-hexagon.maxMissQueryPercent.2.0=15&prop.svc-align-hexagon.considerGoodSubalignments.2.0=1&prop.svc-align-hexagon.slice.15=500000&prop.svc-align-hexagon._type=svc-align-hexagon&prop.svc-align-hexagon.subject.16=546263&prop.svc-align-hexagon.scoreFilter.21=None&prop.svc-align-hexagon.action.0.0=2&prop.svc-align-hexagon.doubleHash.20=0&prop.svc-align-hexagon.doubleStagePerfect.30=1&prop.svc-align-hexagon.split.17=query
+Your Hexagon ID is:  546264
+Progress report on object 546264
+Process in submision
+Progress report on object 546264
+Process Running. 0 percent complete
+Progress report on object 546264
+Process Running. 0 percent complete
+Progress report on object 546264
+Process Running. 0 percent complete
+Progress report on object 546264
+Process Running. 3 percent complete
+Progress report on object 546264
+Process Running. 4 percent complete
+Progress report on object 546264
+Process Running. 8 percent complete
+Progress report on object 546264
+Process Running. 8 percent complete
+Progress report on object 546264
+Process Running. 9 percent complete
+Progress report on object 546264
+Process Running. 12 percent complete
+Progress report on object 546264
+Process Running. 14 percent complete
+Progress report on object 546264
+Process Running. 18 percent complete
+Progress report on object 546264
+Process Running. 18 percent complete
+Progress report on object 546264
+Process Running. 22 percent complete
+Progress report on object 546264
+Process Running. 22 percent complete
+Progress report on object 546264
+Process Running. 27 percent complete
+Progress report on object 546264
+Process Running. 27 percent complete
+Progress report on object 546264
+Process Running. 31 percent complete
+Progress report on object 546264
+Process Running. 32 percent complete
+Progress report on object 546264
+Process Running. 32 percent complete
+Progress report on object 546264
+Process Running. 37 percent complete
+Progress report on object 546264
+Process Running. 37 percent complete
+Progress report on object 546264
+Process Running. 40 percent complete
+Progress report on object 546264
+Process Running. 41 percent complete
+Progress report on object 546264
+Process Running. 45 percent complete
+Progress report on object 546264
+Process Running. 46 percent complete
+Progress report on object 546264
+Process Running. 50 percent complete
+Progress report on object 546264
+Process Running. 50 percent complete
+Progress report on object 546264
+Process Running. 55 percent complete
+Progress report on object 546264
+Process Running. 55 percent complete
+Progress report on object 546264
+Process Running. 60 percent complete
+Progress report on object 546264
+Process Running. 61 percent complete
+Progress report on object 546264
+Process Running. 62 percent complete
+Progress report on object 546264
+Process Running. 62 percent complete
+Progress report on object 546264
+Process Running. 62 percent complete
+Progress report on object 546264
+Process Running. 63 percent complete
+Progress report on object 546264
+Process Running. 63 percent complete
+Progress report on object 546264
+Process Running. 64 percent complete
+Progress report on object 546264
+Process Running. 64 percent complete
+Progress report on object 546264
+Process Running. 64 percent complete
+Progress report on object 546264
+Process Running. 65 percent complete
+Progress report on object 546264
+Process Running. 65 percent complete
+Progress report on object 546264
+Process Running. 65 percent complete
+Progress report on object 546264
+Process Running. 65 percent complete
+Progress report on object 546264
+Process Running. 65 percent complete
+Progress report on object 546264
+Process Running. 67 percent complete
+Progress report on object 546264
+Process Running. 67 percent complete
+Progress report on object 546264
+Process Running. 68 percent complete
+Progress report on object 546264
+Process Running. 68 percent complete
+Progress report on object 546264
+Process Running. 68 percent complete
+Progress report on object 546264
+Process Running. 69 percent complete
+Progress report on object 546264
+Process Running. 69 percent complete
+Progress report on object 546264
+Process Running. 70 percent complete
+Progress report on object 546264
+Process Running. 70 percent complete
+Progress report on object 546264
+Process Running. 70 percent complete
+Progress report on object 546264
+Process Running. 71 percent complete
+Progress report on object 546264
+Process Running. 71 percent complete
+Progress report on object 546264
+Process Running. 72 percent complete
+Progress report on object 546264
+Process Running. 72 percent complete
+Progress report on object 546264
+Process Running. 73 percent complete
+Progress report on object 546264
+Process Running. 73 percent complete
+Progress report on object 546264
+Process Running. 73 percent complete
+Progress report on object 546264
+Process Running. 74 percent complete
+Progress report on object 546264
+Process Running. 74 percent complete
+Progress report on object 546264
+Process Running. 75 percent complete
+Progress report on object 546264
+Process Running. 75 percent complete
+Progress report on object 546264
+Process Running. 76 percent complete
+Progress report on object 546264
+Process Running. 76 percent complete
+Progress report on object 546264
+Process Running. 77 percent complete
+Progress report on object 546264
+Process Running. 77 percent complete
+Progress report on object 546264
+Process Running. 77 percent complete
+Progress report on object 546264
+Process Running. 78 percent complete
+Progress report on object 546264
+Process Running. 78 percent complete
+Progress report on object 546264
+Process Running. 79 percent complete
+Progress report on object 546264
+Process Running. 79 percent complete
+Progress report on object 546264
+Process Running. 80 percent complete
+Progress report on object 546264
+Process Running. 80 percent complete
+Progress report on object 546264
+Process Running. 80 percent complete
+Progress report on object 546264
+Process Running. 80 percent complete
+Progress report on object 546264
+Process Running. 80 percent complete
+Progress report on object 546264
+Process Running. 81 percent complete
+Progress report on object 546264
+Process Running. 81 percent complete
+Progress report on object 546264
+Process Running. 83 percent complete
+Progress report on object 546264
+Process Running. 83 percent complete
+Progress report on object 546264
+Process Running. 84 percent complete
+Progress report on object 546264
+Process Running. 84 percent complete
+Progress report on object 546264
+Process Running. 84 percent complete
+Progress report on object 546264
+Process Running. 85 percent complete
+Progress report on object 546264
+Process Running. 85 percent complete
+Progress report on object 546264
+Process Running. 86 percent complete
+Progress report on object 546264
+Process Running. 86 percent complete
+Progress report on object 546264
+Process Running. 87 percent complete
+Progress report on object 546264
+Process Running. 87 percent complete
+Progress report on object 546264
+Process Running. 87 percent complete
+Progress report on object 546264
+Process Running. 88 percent complete
+Progress report on object 546264
+Process Running. 88 percent complete
+Progress report on object 546264
+Process Running. 89 percent complete
+Progress report on object 546264
+Process Running. 89 percent complete
+Progress report on object 546264
+Process Running. 90 percent complete
+Progress report on object 546264
+Process Running. 90 percent complete
+Progress report on object 546264
+Process Running. 91 percent complete
+Progress report on object 546264
+Process Running. 91 percent complete
+Progress report on object 546264
+Process Running. 91 percent complete
+Progress report on object 546264
+Process Running. 92 percent complete
+Progress report on object 546264
+Process Running. 92 percent complete
+Progress report on object 546264
+Process Running. 93 percent complete
+Progress report on object 546264
+Process Running. 93 percent complete
+Progress report on object 546264
+Process Running. 94 percent complete
+Progress report on object 546264
+Process Running. 94 percent complete
+Progress report on object 546264
+Process Running. 95 percent complete
+Progress report on object 546264
+Process Running. 95 percent complete
+Progress report on object 546264
+Process Running. 95 percent complete
+Progress report on object 546264
+Process Running. 96 percent complete
+Progress report on object 546264
+Process Running. 96 percent complete
+Progress report on object 546264
+Process Running. 97 percent complete
+Progress report on object 546264
+Process Running. 97 percent complete
+Progress report on object 546264
+Process Running. 98 percent complete
+Progress report on object 546264
+Process Running. 98 percent complete
+Progress report on object 546264
+Process Running. 98 percent complete
+Progress report on object 546264
+Process Running. 99 percent complete
+Progress report on object 546264
+Process Running. 99 percent complete
+Progress report on object 546264
+DONE!
+Getting Hit List from Hexagon...
+
+hex546264_HMB25-2_R3.csv  written to file
+Archiving unaligned reads from Hexagon...
+
+Waiting for unaligned reads from Hexagon...
+
+checking for obj id
+cmdr=objList&type=%5Enuc-read%24&search=UnalignedReads-546264_HMB25-2_R3.fastq&prop=name&bust=1476369456692
+546276  processing
+Retrieving svc-archiver obj ID to check on archival process
+Waiting for obj id to be gererated...
+cmdr=objList&type=svc-archiver&search=UnalignedReads-546264_HMB25-2_R3.fastq&prop=name&bust=1476369456492
+546275 UnalignedReads-546264_HMB25-2_R3.fastq
+Progress report on object 546275
+Process Running. 25 percent complete
+Progress report on object 546275
+Process Running. 30 percent complete
+Progress report on object 546275
+Process Running. 35 percent complete
+Progress report on object 546275
+Process Running. 44 percent complete
+Progress report on object 546275
+Process Running. 44 percent complete
+Progress report on object 546275
+Process Running. 45 percent complete
+Progress report on object 546275
+Process Running. 53 percent complete
+Progress report on object 546275
+Process Running. 62 percent complete
+Progress report on object 546275
+Process in submision
+Progress report on object 546275
+Process in submision
+Progress report on object 546275
+Process Running. 82 percent complete
+Progress report on object 546275
+Process in submision
+Progress report on object 546275
+DONE!
+Entire Pipe complete!

@@ -1,0 +1,224 @@
+id,Reference,Hits,Hits Unique,Length
+0,"Unaligned",6305805,6305805,
+9004671,"gi|149931032|gb|CP000139.1| Bacteroides vulgatus ATCC 8482, complete genome",2452,2452,5163189
+21539837,"gi|295083795|emb|FP929033.1| Bacteroides xylanisolvens XB1A draft genome",617,617,5976145
+19240004,"gi|29342101|gb|AE015928.1| Bacteroides thetaiotaomicron VPI-5482, complete genome",338,338,6260361
+1243262,"gi|295102939|emb|FP929046.1| Faecalibacterium prausnitzii SL3/3 draft genome",294,294,3214418
+18741900,"gi|324310566|gb|CP002544.1| Odoribacter splanchnicus DSM 20712, complete genome",275,275,4392288
+6878559,"gi|571257415|emb|HF545616.1| Ruminococcus bicirculans chromosome I, complete genome",236,236,2240877
+1572969,"gi|671709398|gb|CP007619.1| Bacteroides dorei isolate HS1_L_1_B_010, complete genome",225,225,5729085
+14027417,"gi|295100182|emb|FP929045.1| Faecalibacterium prausnitzii L2/6 draft genome",172,172,3321367
+9501121,"gi|390421916|gb|CP003274.1| Alistipes finegoldii DSM 17242, complete genome",137,137,3734239
+18693111,"gi|291558333|emb|FP929061.1| Clostridiales sp. SSC/2 draft genome",132,132,3114788
+5608853,"gi|149935098|gb|CP000140.1| Parabacteroides distasonis ATCC 8503, complete genome",121,121,4811379
+1307574,"gi|671713918|gb|CP008741.1| Bacteroides dorei isolate HS1_L_3_B_079, complete genome",107,107,5243219
+336818,"gi|291548560|emb|FP929055.1| Ruminococcus torques L2-14 draft genome",85,85,3341681
+18062853,"gi|571259379|emb|HF545617.1| Ruminococcus bicirculans chromosome II, complete genome",77,77,727623
+20758482,"gi|291523683|emb|FP929042.1| Eubacterium rectale DSM 17629 draft genome",63,63,3344951
+17530582,"gi|291526582|emb|FP929043.1| Eubacterium rectale M104/1 draft genome",55,55,3698419
+9589945,"gi|291541372|emb|FP929051.1| Ruminococcus bromii L2-63 draft genome",53,53,2249085
+18518873,"gi|291545299|emb|FP929053.1| Ruminococcus sp. SR1/5 draft genome",52,52,3545606
+18381426,"gi|291556121|emb|FP929059.1| Eubacterium siraeum V10Sc8a draft genome",50,50,2836123
+22067907,"gi|52214156|dbj|AP006841.1| Bacteroides fragilis YCH46 DNA, complete genome",46,46,5277274
+18879180,"gi|291561105|emb|FP929062.1| Clostridiales sp. SS3/4 draft genome",46,46,3601020
+6747852,"gi|238874104|gb|CP001107.1| Eubacterium rectale ATCC 33656, complete genome",44,44,3449685
+6784351,"gi|345500446|gb|CP003040.1| Roseburia hominis A2-183, complete genome",40,40,3592125
+19667764,"gi|295107714|emb|FP929054.1| Ruminococcus obeum A2-162 draft genome",38,38,3757491
+15795192,"gi|291513545|emb|FP929032.1| Alistipes shahii WAL 8301 draft genome",33,33,3763317
+13024965,"gi|686511930|gb|CP006828.1| Ornithobacterium rhinotracheale ORT-UMN 88, complete genome",32,32,2397867
+14923809,"gi|291520697|emb|FP929038.1| Coprococcus catus GD/7 draft genome",29,29,3522704
+19246829,"gi|576019682|gb|JQ995537.1| Uncultured phage crAssphage, complete genome",29,29,97065
+6363959,"gi|238871336|gb|CP001104.1| Eubacterium eligens ATCC 27750, complete genome",26,26,2144190
+10216097,"gi|291529795|emb|FP929044.1| Eubacterium siraeum 70/3 draft genome",26,26,2943413
+487354,"gi|187424568|gb|CP001071.1| Akkermansia muciniphila ATCC BAA-835, complete genome",24,24,2664102
+51749,"gi|319414919|gb|CP002352.1| Bacteroides helcogenes P 36-108, complete genome",20,20,3998906
+72213,"gi|324316725|gb|CP002530.1| Bacteroides salanitronis DSM 18170, complete genome",17,17,4242803
+4345294,"gi|29335914|gb|AY171301.1| Bacteroides thetaiotaomicron VPI-5482 plasmid p5482, complete sequence",15,15,33038
+6767482,"gi|530777260|dbj|AP013105.1| Adlercreutzia equolifaciens DSM 19450 DNA, complete genome",14,14,2862526
+22067906,"gi|301161079|emb|FQ312004.1| Bacteroides fragilis 638R genome",14,14,5373121
+15854442,"gi|291537741|emb|FP929050.1| Roseburia intestinalis XB6B4 draft genome",13,13,4286292
+21006709,"gi|570740742|gb|CP007034.1| Barnesiella viscericola DSM 18177, complete genome",12,12,3076856
+17181405,"gi|295114602|emb|FP929060.1| Clostridiales sp. SM4/1 draft genome",11,11,3108859
+22048087,"gi|238873439|gb|CP001106.1| Eubacterium eligens ATCC 27750 plasmid, complete sequence",10,10,626744
+22067905,"gi|60491031|emb|CR626927.1| Bacteroides fragilis NCTC 9343, complete genome",9,9,5205140
+15282239,"gi|295089810|emb|FP929037.1| Clostridium saccharolyticum-like K10 draft genome",9,9,3769775
+21632670,"gi|5566608|gb|U75371.3|BFU75371 Bacteroides fragilis transposon Tn4555 TnpA (tnpA), integrase (int), TnpC (tnpC), excisionase (xis), mobilization protein (mobA), and beta-lactamase (cfxA) genes, complete cds; and unknown genes",9,9,12105
+15049399,"gi|1002685|gb|U30316.1|BFU30316 Bacteroides fragilis strain IB143 plasmid pBI143, complete sequence",8,8,2747
+19230125,"gi|336317741|gb|JF795575.1| Bacteroides fragilis strain 24435 transposase and metallo-beta-lactamase (cfiA) genes, complete cds",8,8,2793
+18184709,"gi|118764602|dbj|AP009256.1| Bifidobacterium adolescentis ATCC 15703 DNA, complete genome",6,6,2089645
+15849636,"gi|695197370|ref|NG_034706.1| Bacteroides fragilis mobilization protein MbpA (mbpA), MbpB (mbpB) and MbpC (mbpC) genes, complete cdsgi|915336|gb|U25716.1|BFU25716 Bacteroides fragilis mobilization protein MbpA (mbpA), MbpB (mbpB) and MbpC (mbpC) genes, complete cds",6,6,1741
+13967355,"gi|46242768|gb|AY515263.1| Bacteroides fragilis conjugative transposon CTn341, complete sequence",5,5,51993
+19264583,"gi|295105686|emb|FP929047.1| Gordonibacter pamelaeae 7-10-1-b draft genome",5,5,3608022
+111962,"gi|295098739|emb|FP929041.1| Eubacterium cylindroides T2-87 draft genome",5,5,1966750
+9080809,"gi|302195072|gb|CP002109.1| Clostridium saccharolyticum WM1, complete genome",5,5,4662871
+23087658,"gi|213536825|gb|FJ410382.1| Bacteroides vulgatus KCCM:11423 16S ribosomal RNA gene, partial sequence; 16S-23S ribosomal intergenic spacer, complete sequence; and 23S ribosomal RNA gene, partial sequence",4,4,3340
+3799116,"gi|10444264|gb|AF289050.1| Bacteroides thetaiotaomicron conjugative transposon CTnDOT, transfer region",4,4,16256
+22914405,"gi|60495221|emb|CR626928.1| Bacteroides fragilis NCTC 9343 pBF9343 plasmid complete sequence",4,4,36560
+8554020,"gi|389889530|gb|CP001361.1| Bifidobacterium bifidum BGN4, complete genome",4,4,2223664
+5394517,"gi|419590233|dbj|AB646744.1| Bacteroides fragilis plasmid pBFUK1 DNA, complete genome, strain: GAI92082",4,4,12817
+4234508,"gi|229892390|gb|FJ872410.1| Enterococcus faecalis strain N03-0233 VanG2 mobile element, complete sequence",4,4,47871
+298208,"gi|257473675|gb|CP001726.1| Eggerthella lenta DSM 2243, complete genome",4,4,3632260
+18422245,"gi|347543713|tpg|BK008007.1| TPA_exp: Clostridium difficile strain R20291 transposon Tn6103, complete sequence",4,4,84964
+1379178,"gi|27368490|emb|AJ431573.1| Bacteroides thetaiotaomicron transposon CTnDOT, xis2c, xis2d, exc and rteR genes, ORF2A, ORF2B, ORF3, ORF2E and ORF4A",4,4,7655
+4614833,"gi|697632298|emb|LN515532.1| Porphyromonadaceae bacterium ING2-E5B genome assembly E5B ,chromosome : chrI",3,3,2808926
+13973691,"gi|295092884|emb|FP929039.1| Coprococcus sp. ART55/1 draft genome",3,3,3123007
+14354016,"gi|415002|gb|L02419.1|BNRRTEC Bacteroides thetaiotaomicron rteC gene, complete cds",3,3,1900
+1678499,"gi|339291081|gb|CP002888.1| Streptococcus salivarius 57.I, complete genome",3,3,2138805
+23087657,"gi|213536826|gb|FJ410383.1| Bacteroides ovatus ATCC:8483 16S ribosomal RNA gene, partial sequence; 16S-23S ribosomal intergenic spacer, complete sequence; and 23S ribosomal RNA gene, partial sequence",3,3,3455
+12472776,"gi|291534262|emb|FP929049.1| Roseburia intestinalis M50/1 draft genome",3,3,4143550
+8554022,"gi|310865778|gb|CP001840.1| Bifidobacterium bifidum PRL2010, complete genome",3,3,2214656
+18184708,"gi|671341910|gb|CP007443.1| Bifidobacterium adolescentis strain 22L, complete genome",3,3,2203222
+16700603,"gi|695196793|ref|NG_034522.1| Bacteroides fragilis Transposon Tn4551 clindamycin resistance determinant (ermFS) and direct repeat sequence (DRS4551-R)gi|154891|gb|M17808.1|TRN4551AA Bacteroides fragilis Transposon Tn4551 clindamycin resistance determinant (ermFS) and direct repeat sequence (DRS4551-R)",3,3,2080
+19361891,"gi|269093698|gb|CP001820.1| Veillonella parvula DSM 2008, complete genome",3,3,2132142
+18591079,"gi|347543712|tpg|BK008006.1| TPA_exp: Clostridium difficile strain QCD-23M63 transposon Tn6073, complete sequence",3,3,28731
+21043580,"gi|761598910|emb|LN824140.1| Bifidobacterium longum subsp. infantis genome assembly Bifidobacterium longum subsp. infantis CECT7210, chromosome : I",2,2,2467698
+23184124,"gi|745818226|gb|CP006857.1| Xanthomonas citri subsp. citri A306, complete genome",2,2,5175545
+22053307,"gi|744770467|gb|CP003987.1| Streptomyces sp. 769, complete genome",2,2,10100774
+22510247,"gi|164512327|emb|AM749838.2| Clostridium difficile ORF1, ORF2, tet(W) gene for tetracycline resistance protein and ORF3, strain CD5",2,2,5059
+22879002,"gi|219536331|gb|CP001336.1| Desulfitobacterium hafniense DCB-2, complete genome",2,2,5279134
+17538831,"gi|19068085|gb|AY053505.1| Bacteroides fragilis mobilizable transposon cLV25 mobilization protein BmgA (bmgA), mobilization protein BmgB (bmgB), DNA primase, putative excisionase, and putative integrase genes, complete cds; and unknown genes",2,2,15343
+21912690,"gi|507148346|ref|NR_103149.1| [Eubacterium] siraeum strain V10Sc8a 23S ribosomal RNA gene, complete sequence",2,2,2830
+18858637,"gi|15072713|emb|AJ311171.1| Bacteroides thetaiotaomicron transposon CTnDOT ermF region",2,2,16764
+4419849,"gi|326944014|gb|CP002589.1| Prevotella denticola F0289, complete genome",2,2,2937589
+23291662,"gi|335369081|gb|CP002843.1| Streptococcus parasanguinis ATCC 15912, complete genome",2,2,2153652
+10829583,"gi|311772326|gb|CP002286.1| Bifidobacterium longum subsp. longum BBMN68, complete genome",2,2,2265943
+23074858,"gi|669664104|ref|NG_034212.1| Peptoclostridium difficile transposon Tn4453a regiongi|7670738|gb|AF226276.1| Clostridium difficile transposon Tn4453a TnpX (tnpX), TnpV (tnpV), CatD (catD), TnpY (tnpY), TnpZ (tnpZ), and TnpW (tnpW) genes, complete cds",2,2,7253
+22898653,"gi|296182618|gb|CP002010.1| Bifidobacterium longum subsp. longum JDM301, complete genome",2,2,2477838
+23197672,"gi|59857470|dbj|AB117564.1| Bacteroides uniformis gene for 16S rRNA, partial sequence, strain:NB-14",2,2,1467
+22916957,"gi|291517792|emb|FP929036.1| Butyrivibrio fibrisolvens 16/4 draft genome",2,2,3164379
+9637229,"gi|347543717|tpg|BK008009.1| TPA_exp: Clostridium difficile strain QCD-66C26 transposon Tn6110, complete sequence",2,2,58079
+18255924,"gi|1515447|gb|U63096.1|BFU63096 Bacteroides fragilis (bctA) gene, complete cds",2,2,7786
+7994166,"gi|533205785|gb|KF110993.1| Bacteroides uniformis strain ZL1 putative beta-glucosidase Bgl1 (bgl1) gene, complete cds",2,2,2979
+4485101,"gi|441492708|gb|CP004029.1| Lawsonia intracellularis N343, complete genome",2,2,1457568
+3840725,"gi|336317747|gb|JF795577.1| Bacteroides fragilis strain 24546 transposase and metallo-beta-lactamase (cfiA) genes, complete cds",2,2,2852
+6771969,"gi|760237048|gb|CP010905.1| Peptoclostridium difficile 630, complete genome",2,2,4274806
+17595245,"gi|409104133|gb|CP003732.1| Thermacetogenium phaeum DSM 12270, complete genome",1,1,2939057
+16114170,"gi|676402754|gb|KM043765.1| Bacterium P2C1 16S ribosomal RNA gene, partial sequence",1,1,1467
+579711,"gi|89343559|gb|CP000267.1| Rhodoferax ferrireducens T118, complete genome",1,1,4712337
+11746878,"gi|674114364|gb|CP007573.1| Streptococcus anginosus strain SA1, complete genome",1,1,2036353
+17619011,"gi|295095013|emb|FP929040.1| Enterobacter cloacae subsp. cloacae NCTC 9394 draft genome",1,1,4908759
+23027731,"gi|645319771|ref|NR_117138.1| Anaerostipes hadrus strain DSM 3319 16S ribosomal RNA gene, partial sequencegi|315466810|emb|FR749932.1| Eubacterium hadrum partial 16S rRNA gene, type strain DSM 3319T, clone 1",1,1,1616
+20219405,"gi|392872010|gb|JX006672.1| Bacterium NLAE-zl-H461 16S ribosomal RNA gene, partial sequence",1,1,1402
+22123654,"gi|375158415|gb|CP003316.1| Pyrobaculum oguniense TE7, complete genome",1,1,2436033
+18581860,"gi|557254711|emb|HG530135.1| Clostridium tetani 12124569 main chromosome, complete genome",1,1,2807481
+6899471,"gi|348031130|emb|FQ790382.1| Ruminococcus gnavus",1,1,1302
+14861059,"gi|557471|gb|U15178.1|BOU15178 Bacteroides ovatus arabinosidase (asdI) gene, complete cds",1,1,3762
+19023957,"gi|546336137|gb|CP006667.1| Ralstonia pickettii DTP0602 chromosome 1, complete sequence",1,1,4499145
+3521281,"gi|676402756|gb|KM043767.1| Bacterium P1D11 16S ribosomal RNA gene, partial sequence",1,1,1153
+22172820,"gi|315407437|gb|CP002399.1| Micromonospora sp. L5, complete genome",1,1,6962533
+4764997,"gi|528324168|gb|CP003924.1| Corynebacterium maris DSM 45190, complete genome",1,1,2787574
+4131862,"gi|8347624|gb|AF251288.1| Bacteroides fragilis transposon NBU2 lincomycin resistance gene (linAn2), MefEn2 (mefEn2), integrase (intN2), PrmN2 (prmN2), and mobilization protein (mobN2) genes, complete cds; and unknown genes",1,1,11123
+9395992,"gi|328802836|gb|CP002607.1| Aeromonas veronii B565, complete genome",1,1,4551783
+14055379,"gi|13897051|emb|AL354704.17| Human DNA sequence from clone RP11-630H9 on chromosome 9, complete sequence",1,1,130718
+14254879,"gi|695169020|gb|CP009571.1| Sphingomonas taxi strain ATCC 55669, complete genome",1,1,3859099
+3178265,"gi|723626758|gb|CP009913.1| Streptococcus salivarius strain NCTC 8618, complete genome",1,1,2188923
+21736691,"gi|71845263|gb|CP000089.1| Dechloromonas aromatica RCB, complete genome",1,1,4501104
+18238911,"gi|574595116|gb|CP007014.1| Pseudomonas syringae CC1557, complete sequence",1,1,5758024
+2832581,"gi|219878428|ref|NR_025567.1| [Clostridium] bolteae strain 16351 16S ribosomal RNA gene, partial sequencegi|30024177|emb|AJ508452.1| Clostridium boltei partial 16S rRNA gene, strain 16351",1,1,1498
+9547502,"gi|350278064|gb|CP003058.1| Acidaminococcus intestini RyC-MR95, complete genome",1,1,2487765
+859929,"gi|764039757|gb|CP004083.1| Enterobacteriaceae bacterium bta3-1, complete genome",1,1,4763672
+22565425,"gi|728871582|gb|CP006905.1| Clostridium baratii str. Sullivan, complete genome",1,1,3153266
+12272118,"gi|328452070|gb|CP002629.1| Desulfobacca acetoxidans DSM 11109, complete genome",1,1,3282536
+8554021,"gi|309250456|gb|CP002220.1| Bifidobacterium bifidum S17, complete genome",1,1,2186882
+6906998,"gi|16549047|emb|AJ319661.1| Bacteroides sp. conjugative transposon CTnDOT ORF3 and exc",1,1,3718
+3166369,"gi|5880684|gb|AF137379.1| Nephroselmis olivacea chloroplast DNA, complete genome",1,1,200799
+10372654,"gi|52218735|dbj|AP006842.1| Bacteroides fragilis YCH46 plasmid pBFY46 DNA, complete sequence",1,1,33716
+7965343,"gi|240863652|gb|CP001644.1| Ralstonia pickettii 12D chromosome 1, complete sequence",1,1,3647724
+18753337,"gi|315447000|gb|CP002403.1| Ruminococcus albus 7, complete genome",1,1,3685408
+17924518,"gi|78217452|gb|CP000112.1| Desulfovibrio alaskensis G20, complete genome",1,1,3730232
+4440898,"gi|533205801|gb|KF111001.1| Bacteroides uniformis strain ZL1 putative beta-glucosidase Bgl9 (bgl9) gene, complete cds",1,1,2211
+19287494,"gi|256576994|gb|CP001629.1| Desulfomicrobium baculatum DSM 4028, complete genome",1,1,3942657
+5661572,"gi|673065796|emb|LM995447.1| [Clostridium] cellulosi genome assembly DG5 ,chromosome : I",1,1,2229578
+3772561,"gi|350408305|ref|XM_003488317.1| PREDICTED: Bombus impatiens 3-ketoacyl-CoA thiolase, mitochondrial-like (LOC100744651), mRNA",1,1,1333
+18175555,"gi|757807349|dbj|AP012327.1| Bifidobacterium kashiwanohense JCM 15439 = DSM 21854 DNA, complete genome",1,1,2337234
+20142000,"gi|338744031|emb|FR873482.1| Streptococcus salivarius JIM8777 complete genome",1,1,2210574
+8016425,"gi|378937014|gb|CP003351.1| Enterococcus faecium Aus0004, complete genome",1,1,2955294
+2586928,"gi|153917799|dbj|AK260029.1| Gryllus bimaculatus mRNA, GBcontig06890",1,1,130
+20952077,"gi|13898899|gb|AF357553.1|AF357553 Bacterium mpn-isolate group 5 16S ribosomal RNA gene, partial sequence",1,1,1482
+23143531,"gi|225726369|gb|CP000921.1| Streptococcus pneumoniae Taiwan19F-14, complete genome",1,1,2112148
+3024490,"gi|548725601|gb|CP006772.1| Bacteroidales bacterium CF, complete genome",1,1,2657245
+22072509,"gi|49609491|emb|BX950851.1| Erwinia carotovora subsp. atroseptica SCRI1043, complete genome",1,1,5064019
+6771972,"gi|260211391|emb|FN545816.1| Clostridium difficile R20291 complete genome",1,1,4191339
+23167206,"gi|256687298|gb|CP001686.1| Kytococcus sedentarius DSM 20547, complete genome",1,1,2785024
+3518591,"gi|73427039|gb|DQ144125.1| Butyrate-producing bacterium Ph07AY04 16S ribosomal RNA gene, partial sequence",1,1,1200
+10160213,"gi|748241940|gb|CP009313.1| Streptomyces nodosus strain ATCC 14899 genome",1,1,7714110
+22960353,"gi|528981796|ref|NC_021285.1| Achromobacter xylosoxidans NH44784-1996 complete genomegi|507098404|emb|HE798385.1| Achromobacter xylosoxidans NH44784-1996 complete genome",1,1,6916670
+2880853,"gi|433301591|gb|CP003368.1| Prevotella dentalis DSM 3688 chromosome 1, complete sequence",1,1,1890695
+9238218,"gi|343200980|ref|NR_041667.1| Parasutterella excrementihominis strain YIT 11859 16S ribosomal RNA gene, partial sequencegi|215273584|dbj|AB370250.1| Parasutterella excrementihominis gene for 16S ribosomal RNA, partial sequence",1,1,1494
+4374919,"gi|292557464|gb|CP000837.1| Streptococcus suis GZ1, complete genome",1,1,2038034
+22189516,"gi|351716053|emb|FO082060.1| Methylomicrobium alcaliphilum str. 20Z chromosome, complete genome",1,1,4668296
+22543796,"gi|343201281|ref|NR_042007.1| Roseburia inulinivorans strain A2-194 16S ribosomal RNA gene, complete sequencegi|23498637|emb|AJ270473.3| Roseburia inulinivorans 16S rRNA gene, type strain A2-194T",1,1,1454
+1136549,"gi|695212902|ref|NG_036511.1| Escherichia coli plasmid pARS3 npmA gene for 16S rRNA methylase, complete cdsgi|157734593|dbj|AB261016.1| Escherichia coli plasmid pARS3 npmA gene for 16S rRNA methylase, complete cds",1,1,3946
+18688566,"gi|145308090|gb|AY345595.2| Bacteroides uniformis strain WH207 transposon CTnBST, complete sequence",1,1,100903
+14523430,"gi|807867|emb|X58717.1| B.thetaiotaomicron tetQ gene for TetQ protein",1,1,2657
+9323876,"gi|584465780|gb|CP007177.1| Staphylococcus aureus USA300-ISMMS1 plasmid pUSA01-ISMMS, complete sequence",1,1,27068
+5971266,"gi|294768450|gb|GU905035.1| Acholeplasma sp. N93 23S ribosomal RNA gene, partial sequence; 23S-5S ribosomal RNA intergenic spacer, complete sequence; and 5S ribosomal RNA gene, partial sequence",1,1,2890
+3701854,"gi|78496741|gb|CP000153.1| Sulfurimonas denitrificans DSM 1251, complete genome",1,1,2201561
+220335,"gi|329745630|gb|CP002637.1| Selenomonas sputigena ATCC 35185, complete genome",1,1,2568361
+22055933,"gi|254966955|gb|GQ343070.1| Mixed culture bacterium CF_gF3SD01_01 CblA-1 beta-lactamase and hypothetical protein genes, complete cds",1,1,1706
+21482520,"gi|635291785|gb|CP007620.1| Pseudomonas putida strain DLL-E4, complete genome",1,1,6484062
+1362536,"gi|428015215|gb|CP003600.1| Chamaesiphon minutus PCC 6605, complete genome",1,1,6284095
+5527422,"gi|698468580|ref|XM_009707194.1| PREDICTED: Cariama cristata aldehyde dehydrogenase family 3 member B1-like (LOC104167069), mRNA",1,1,1566
+228068,"gi|293612874|gb|CP001998.1| Coraliomargarita akajimensis DSM 45221, complete genome",1,1,3750771
+10736400,"gi|115607395|gb|DQ995353.1| Escherichia coli plasmid pMG828-3, complete sequence",1,1,5219
+2789737,"gi|148498119|gb|CP000699.1| Sphingomonas wittichii RW1, complete genome",1,1,5382261
+18535168,"gi|159159324|gb|EU136680.1| Bacteroides uniformis strain JCM5828 16S ribosomal RNA gene, partial sequence",1,1,2019
+3736804,"gi|312172507|emb|FR719191.1| Erwinia amylovora ATCC BAA-2158, whole genome shotgun sequence, contig 11",1,1,405598
+14842452,"gi|557473|gb|U15179.1|BOU15179 Bacteroides ovatus arabinosidase (asdII) gene, complete cds and putative transketolase, partial cds",1,1,3781
+13922375,"gi|291543184|emb|FP929052.1| Ruminococcus champanellensis type strain 18P13T draft genome",1,1,2573208
+367085,"gi|358443906|gb|CP002273.2| Eubacterium limosum KIST612, complete genome",1,1,4316707
+9526299,"gi|558694758|emb|HG002388.1| Clostridium difficile transposon Tn6218, strain Ox2155",1,1,9253
+5532334,"gi|384064804|emb|HE796683.1| Fibrella aestuarina BUZ 2 drat genome",1,1,6775444
+21955057,"gi|338795780|emb|FR691055.1| Streptococcus pyogenes ICESp2905 DNA containing erm(TR)-carrying element and tet(O) fragment, strain iB21",1,1,68252
+21043391,"gi|582540491|gb|KF809885.1| Alistipes sp. CC-5826-wt-bac 16S ribosomal RNA gene, partial sequence",1,1,1432
+21504201,"gi|470474721|ref|NR_076234.1| Peptoclostridium difficile strain 630 23S ribosomal RNA gene, complete sequence",1,1,2900
+22864097,"gi|71850813|gb|AE017245.1| Mycoplasma synoviae 53, complete genome",1,1,799476
+23220547,"gi|194716529|gb|EU864422.1| Sphingobacterium sp. PM2-P1-29 putative integrase (intF), hypothetical proteins, hypothetical protein (prmF), mobilization protein (mobB), mobilization protein (mobA), hypothetical protein, aminoglycoside 6-adenylyltransferase (aadS), tetracycline resistance protein (tet(X)), putative streptothricin resistance protein, hypothetical protein, and putative transposase (tpnF) genes, complete cds; and tRNA-Pro gene, complete sequence",1,1,13005
+22073475,"gi|292673316|dbj|AP010803.1| Sphingobium japonicum UT26S DNA, chromosome 1, complete genome",1,1,3514822
+4987596,"gi|550800168|gb|CP004885.1| Candidatus Symbiobacter mobilis CR, complete genome",1,1,2991840
+12158323,"gi|338900465|dbj|AP012212.1| Clostridium sp. SY8519 DNA, complete genome",1,1,2835737
+23245250,"gi|460564964|gb|JX424617.1| Prevotella sp. Sc00026 clone contig00026b genomic sequence",1,1,1629
+5460773,"gi|521014486|gb|CP006265.1| Psychrobacter sp. G, complete genome",1,1,3079438
+13186661,"gi|372983507|gb|CP003171.1| Oceanimonas sp. GK1, complete genome",1,1,3514537
+895759,"gi|125496804|gb|CP000387.1| Streptococcus sanguinis SK36, complete genome",1,1,2388435
+14912407,"gi|34558704|gb|AY305317.1| Butyrate-producing bacterium SL6/1/1 16S ribosomal RNA gene, partial sequence",1,1,1452
+5474292,"gi|98975575|gb|CP000356.1| Sphingopyxis alaskensis RB2256, complete genome",1,1,3345170
+5395870,"gi|533205793|gb|KF110997.1| Bacteroides uniformis strain ZL1 putative beta-glucosidase Bgl5 (bgl5) gene, complete cds",1,1,3015
+22502113,"gi|348593238|dbj|AP012044.1| Oscillibacter valericigenes Sjm18-20 DNA, complete genome",1,1,4410036
+22570489,"gi|179342784|gb|CP001029.1| Methylobacterium populi BJ001, complete genome",1,1,5800441
+15853647,"gi|30407128|emb|AL646053.1| Ralstonia solanacearum GMI1000 megaplasmid complete sequence",1,1,2094509
+21734831,"gi|464097432|dbj|AP012057.1| Ilumatobacter coccineus YM16-304 DNA, complete genome",1,1,4830181
+23291796,"gi|315471689|gb|CP002394.1| Bacillus cellulosilyticus DSM 2522, complete genome",1,1,4681672
+14715099,"gi|686561105|gb|CP009428.1| Paenibacillus odorifer strain DSM 15391, complete genome",1,1,6812473
+16481602,"gi|470477447|ref|NR_076384.1| Bacteroides vulgatus strain ATCC 8482 23S ribosomal RNA gene, complete sequence",1,1,2894
+1076808,"gi|30313593|gb|AY155590.1| Bacteroides caccae 23S ribosomal RNA gene, partial sequence",1,1,593
+23105612,"gi|297163432|gb|CP002049.1| Truepera radiovictrix DSM 17093, complete genome",1,1,3260398
+18667368,"gi|301318648|gb|CP002106.1| Olsenella uli DSM 7084, complete genome",1,1,2051896
+11957801,"gi|1100064|gb|L49338.1|BNROMP Bacteroides thetaiotaomicron outer membrane protein (susC) gene, complete cds",1,1,3250
+19023375,"gi|338164315|gb|CP002877.1| Cupriavidus necator N-1 chromosome 1, complete sequence",1,1,3872936
+202756,"gi|1079657|gb|U38243.1|BVU38243 Bacteroides vulgatus beta-lactamase (cfxA) gene, complete cds and mobilization protein (mobA) gene, complete cds",1,1,4087
+13121502,"gi|194359988|gb|DQ859906.2| Bacteroides fragilis strain P35 plasmid pBFP35, complete sequence",1,1,5594
+10170993,"gi|8308019|gb|AF238307.1| Bacteroides uniformis insertion sequence NBU1, complete sequence",1,1,10276
+20262511,"gi|316941978|gb|CP002431.1| Desulfovibrio aespoeensis Aspo-2, complete genome",1,1,3629109
+4774256,"gi|529495048|gb|KC503293.1| Angomonas deanei clone CDE_4.3.2.2 adenylosuccinate lyase gene, complete cds",1,1,1503
+4343241,"gi|223689840|gb|CP001087.1| Desulfobacterium autotrophicum HRM2, complete genome",1,1,5589073
+14073959,"gi|220962111|gb|CP001340.1| Caulobacter crescentus NA1000, complete genome",1,1,4042929
+14902496,"gi|15528534|dbj|AB067769.1| Bacteroides thetaiotaomicron bexA gene for BexA, complete cds",1,1,5286
+23274457,"gi|582979303|gb|KF845963.1| Campylobacter jejuni strain Rec1P-C TetO gene, partial cdsgi|582979309|gb|KF845966.1| Campylobacter jejuni strain Rec2P-C TetO gene, partial cds",1,1,818
+22806674,"gi|595613863|gb|CP007453.1| Eubacterium acidaminophilum DSM 3953 plasmid EAL2_808p, complete sequence",1,1,808774
+23222421,"gi|333741867|gb|CP002735.1| Delftia sp. Cs1-4, complete genome",1,1,6685842
+13559856,"gi|672595561|gb|CP007756.1| Porphyromonas gingivalis strain HG66 genome",1,1,2441780
+2416933,"gi|255918463|gb|CP001630.1| Actinosynnema mirum DSM 43827, complete genome",1,1,8248144
+1014883,"gi|307629912|gb|CP002209.1| Ferrimonas balearica DSM 9799, complete genome",1,1,4279159
+10131728,"gi|572998810|gb|CP007039.1| Pseudomonas cichorii JBC1, complete genome",1,1,5986012
+2834047,"gi|22212465|dbj|AB064890.1| Human intestinal firmicute CB17 gene for 16S rRNA, partial sequence",1,1,513
+13750058,"gi|346716456|gb|CP003046.1| Rhodospirillum rubrum F11, complete genome",1,1,4352825
+19682727,"gi|76780418|emb|AM055811.1| Roseburia sp. A2-194 amyB gene for alpha-amylase precursor",1,1,5061
+16114354,"gi|50982924|gb|AY581272.1| Lactobacillales bacterium HY-36-1 16S ribosomal RNA gene, partial sequence",1,1,1413
+7207327,"gi|641735415|ref|XM_008160044.1| PREDICTED: Eptesicus fuscus Bloom syndrome, RecQ helicase-like (BLM), mRNA",1,1,4131
+15425968,"gi|723001977|dbj|AP014683.1| Burkholderiales bacterium GJ-E10 DNA, complete genome",1,1,3276549
+9457984,"gi|242120376|gb|CP001649.1| Desulfovibrio salexigens DSM 2638, complete genome",1,1,4289847
+3618849,"gi|311903059|gb|CP002304.1| Halanaerobium hydrogeniformans, complete genome",1,1,2613117
+4177116,"gi|225213769|gb|CP001357.1| Brachyspira hyodysenteriae WA1, complete genome",1,1,3000694
+790419,"gi|326548208|gb|CP002584.1| Sphingobacterium sp. 21, complete genome",1,1,6226409
++,"total",6395,6395,528673647

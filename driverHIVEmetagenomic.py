@@ -3,24 +3,23 @@
 
 ################################################################################
                             ##censusHIVEwait##
-""""Submit a metagenomic pipe"""
+""""Submit an instance of HIVE metagenomic pipeline"""
 ################################################################################
 from cookielib import CookieJar
 import urllib, urllib2, re, csv, requests, time, os, json, sys
 
-black_file = "/home/hadleyking/scripting/blackList.csv"
+black_file = "blackList-v2.0.csv"
 hive_URL   = 'https://hive.biochemistry.gwu.edu/dna.cgi?'
 sample     = raw_input('What is the sample name?\n')
 query1     = raw_input('What is the read file Object ID?\n')
 query2     = raw_input('If this is a paired read file enter the second ID now. \nOtherwise hit enter\n')
 nt_db      = '513957'
-logger     = '/home/hadleyking/temp/'+sample+'_log.txt'
+logger     = './temp/'+sample+'_log.txt'
 #______________________________________________________________________________#
 def logIn(  ):
     """Login to HIVE, start session. Returns cookies for session"""
 
-    login      = 'hadley_king@gwmail.gwu.edu'
-    #raw_input('Enter Log In:\n')
+    login      = raw_input('Enter Log In:\n')
     os.system("stty -echo")
     pwd        = raw_input('Enter Password:')
     os.system("stty echo")

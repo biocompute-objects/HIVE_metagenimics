@@ -1,0 +1,99 @@
+Submitting CensuScope Process
+
+cmdr=-qpProcSubmit&svc=svc-dna-screening&prop.svc-dna-screening.action=2&prop.svc-dna-screening._type=svc-dna-screening&prop.svc-dna-screening.alignSelector.21=svc-align-blast&prop.svc-dna-screening.automanual.22=0&prop.svc-dna-screening.batch_svc.5=single&prop.svc-dna-screening.blastWordSize.29=28&prop.svc-dna-screening.CensusIterations.6=1&prop.svc-dna-screening.CensuslimitIterations.7=5&prop.svc-dna-screening.chunk_size.9=4000&prop.svc-dna-screening.cutOffvalue.11=0.0005&prop.svc-dna-screening.filterNs.12=1&prop.svc-dna-screening.isPostponed.20.3=0&prop.svc-dna-screening.name.1=HMB25-2_R1&prop.svc-dna-screening.query.1.1=545722&prop.svc-dna-screening.query.1.23=545721&prop.svc-dna-screening.reqPriority.20.7=0&prop.svc-dna-screening.resultInQueryDir.26=0&prop.svc-dna-screening.Sample.15=2500&prop.svc-dna-screening.scissors.16=hiveseq&prop.svc-dna-screening.selfStopping.27=0&prop.svc-dna-screening.slice.17=0&prop.svc-dna-screening.split.18=-&prop.svc-dna-screening.storeAlignments.28=1&prop.svc-dna-screening.subject=513957&prop.svc-dna-screening.submitter.33=dna-screening&prop.svc-dna-screening.svc=dna-screening&prop.svc-dna-screening.svcTitle=CensuScope&prop.svc-dna-screening.systemVersion.20.11=1.1&prop.svc-dna-screening.taxDepth.25=leaf&prop.svc-dna-screening.textBasedColumn.31.1=0&prop.svc-dna-screening.textBasedFileSeparator.31.2=1
+Your CensuScope ID is:  573733
+Progress report on object 573733
+Process in submision
+Progress report on object 573733
+Process Running. 0 percent complete
+Progress report on object 573733
+Process Running. 0 percent complete
+Progress report on object 573733
+Process Running. 0 percent complete
+Progress report on object 573733
+Process Running. 0 percent complete
+Progress report on object 573733
+Process Running. 0 percent complete
+Progress report on object 573733
+Process Running. 0 percent complete
+Progress report on object 573733
+Process Running. 0 percent complete
+Progress report on object 573733
+Process Running. 25 percent complete
+Progress report on object 573733
+Process Running. 16 percent complete
+Progress report on object 573733
+Process Running. 66 percent complete
+Progress report on object 573733
+Process Running. 66 percent complete
+Progress report on object 573733
+Process Running. 66 percent complete
+Progress report on object 573733
+Process Running. 66 percent complete
+Progress report on object 573733
+Process Running. 66 percent complete
+Progress report on object 573733
+Process Running. 75 percent complete
+Progress report on object 573733
+Process Running. 66 percent complete
+Progress report on object 573733
+Process Running. 83 percent complete
+Progress report on object 573733
+Process Running. 86 percent complete
+Progress report on object 573733
+DONE!
+Getting Hit List from CensuScope...
+
+cen573733_HMB25-2_R1.csv  written to file
+9004671 2452 CP000139.1
+21539837 617 FP929033.1
+19240004 338 AE015928.1
+1243262 294 FP929046.1
+18741900 275 CP002544.1
+6878559 236 HF545616.1
+1572969 225 CP007619.1
+14027417 172 FP929045.1
+9501121 137 CP003274.1
+18693111 132 FP929061.1
+5608853 121 CP000140.1
+1307574 107 CP008741.1
+336818 85 FP929055.1
+18062853 77 HF545617.1
+20758482 63 FP929042.1
+17530582 55 FP929043.1
+9589945 53 FP929051.1
+18518873 52 FP929053.1
+18381426 50 FP929059.1
+22067907 46 AP006841.1
+18879180 46 FP929062.1
+6747852 44 CP001107.1
+6784351 40 CP003040.1
+19667764 38 FP929054.1
+15795192 33 FP929032.1
+13024965 32 CP006828.1
+14923809 29 FP929038.1
+JQ995537.1  is black Listed 29
+6363959 26 CP001104.1
+10216097 26 FP929044.1
+487354 24 CP001071.1
+51749 20 CP002352.1
+72213 17 CP002530.1
+4345294 15 AY171301.1
+6767482 14 AP013105.1
+22067906 14 FQ312004.1
+15854442 13 FP929050.1
+21006709 12 CP007034.1
+17181405 11 FP929060.1
+22048087 10 CP001106.1
+513957,9004671,9004671;513957,21539837,21539837;513957,19240004,19240004;513957,1243262,1243262;513957,18741900,18741900;513957,6878559,6878559;513957,1572969,1572969;513957,14027417,14027417;513957,9501121,9501121;513957,18693111,18693111;513957,5608853,5608853;513957,1307574,1307574;513957,336818,336818;513957,18062853,18062853;513957,20758482,20758482;513957,17530582,17530582;513957,9589945,9589945;513957,18518873,18518873;513957,18381426,18381426;513957,22067907,22067907;513957,18879180,18879180;513957,6747852,6747852;513957,6784351,6784351;513957,19667764,19667764;513957,15795192,15795192;513957,13024965,13024965;513957,14923809,14923809;513957,6363959,6363959;513957,10216097,10216097;513957,487354,487354;513957,51749,51749;513957,72213,72213;513957,4345294,4345294;513957,6767482,6767482;513957,22067906,22067906;513957,15854442,15854442;513957,21006709,21006709;513957,17181405,17181405;513957,22048087,22048087
+Creating Hive Seq Obj
+
+cmdr=-qpProcSubmit&svc=dna-hiveseq&raw=1&prop.svc-hiveseq.name.1=HMB25-2HiveSeq_R1&prop.svc-hiveseq.AlgorithmsName.11.0=0&prop.svc-hiveseq.lowcomplexityactive.12.0=0&prop.svc-hiveseq.lowcomplexityWindow.12.0=15&prop.svc-hiveseq.lowcomplexityEntropy.12.0=1&prop.svc-hiveseq.lowcomplexityOption.12.0=0&prop.svc-hiveseq.AdaptersFilter.13=0&prop.svc-hiveseq.adaptersactive.13.0=0&prop.svc-hiveseq.adaptersObjId.13.0=0&prop.svc-hiveseq.adaptersReverse.13.0.0=0&prop.svc-hiveseq.adaptersComplement.13.0.1=0&prop.svc-hiveseq.adaptersMaxmissmatches.13.0=2&prop.svc-hiveseq.adaptersMinLength.13.0=10&prop.svc-hiveseq.primersactive.17.0=0&prop.svc-hiveseq.primersReverse.17.0.0=0&prop.svc-hiveseq.primersComplement.17.0.1=0&prop.svc-hiveseq.primersKeep.17.0=0&prop.svc-hiveseq.primersMaxmissmatches.17.0=2&prop.svc-hiveseq.primersMinLength.17.0=100&prop.svc-hiveseq.QualityFilter.19=0&prop.svc-hiveseq.qualityactive.19.0=0&prop.svc-hiveseq.qualityPercentage.19.0=100&prop.svc-hiveseq.qualityThreshold.19.0=50&prop.svc-hiveseq.trimMinimum.20.0=-1&prop.svc-hiveseq.trimMaximum.20.0=-1&prop.svc-hiveseq.removeMin.21.0.0=-1&prop.svc-hiveseq.removeMax.21.0.0=-1&prop.svc-hiveseq.lengthSeqFilter.16=0&prop.svc-hiveseq.minimumSeqLength.16.0=0&prop.svc-hiveseq.idfilteractive.15.0=0&prop.svc-hiveseq.idlistObjId.15.0=0&prop.svc-hiveseq.listExclusion.15.0=0&prop.svc-hiveseq.randomizerNumValue.22.0=100&prop.svc-hiveseq.randomizerNoise.22.1=0&prop.svc-hiveseq.randomizerMinLength.22.2=100&prop.svc-hiveseq.randomizerMaxLength.22.3=100&prop.svc-hiveseq.randomizerRevComp.22.6=0&prop.svc-hiveseq.randLengthNorm.22.7=1&prop.svc-hiveseq.seqExclusionOption.23.1=0&prop.svc-hiveseq.seqExclusionRevComp.23.2=0&prop.svc-hiveseq.hiveseqQry.24=513957%2C9004671%2C9004671%3B513957%2C21539837%2C21539837%3B513957%2C19240004%2C19240004%3B513957%2C1243262%2C1243262%3B513957%2C18741900%2C18741900%3B513957%2C6878559%2C6878559%3B513957%2C1572969%2C1572969%3B513957%2C14027417%2C14027417%3B513957%2C9501121%2C9501121%3B513957%2C18693111%2C18693111%3B513957%2C5608853%2C5608853%3B513957%2C1307574%2C1307574%3B513957%2C336818%2C336818%3B513957%2C18062853%2C18062853%3B513957%2C20758482%2C20758482%3B513957%2C17530582%2C17530582%3B513957%2C9589945%2C9589945%3B513957%2C18518873%2C18518873%3B513957%2C18381426%2C18381426%3B513957%2C22067907%2C22067907%3B513957%2C18879180%2C18879180%3B513957%2C6747852%2C6747852%3B513957%2C6784351%2C6784351%3B513957%2C19667764%2C19667764%3B513957%2C15795192%2C15795192%3B513957%2C13024965%2C13024965%3B513957%2C14923809%2C14923809%3B513957%2C6363959%2C6363959%3B513957%2C10216097%2C10216097%3B513957%2C487354%2C487354%3B513957%2C51749%2C51749%3B513957%2C72213%2C72213%3B513957%2C4345294%2C4345294%3B513957%2C6767482%2C6767482%3B513957%2C22067906%2C22067906%3B513957%2C15854442%2C15854442%3B513957%2C21006709%2C21006709%3B513957%2C17181405%2C17181405%3B513957%2C22048087%2C22048087&prop.svc-hiveseq.inputMode.25=0&prop.svc-hiveseq.pecPairEndFile.18.0=0&prop.svc-hiveseq.pecMinMatchLen.18.0=15&prop.svc-hiveseq.pecQualities.18.0=1&prop.svc-hiveseq.pecKeepAlignments.18.0=0&prop.svc-hiveseq.denovoExtSizemer.14.0=16&prop.svc-hiveseq.denovoExtSizeFilter.14.0=0&prop.svc-hiveseq.denovoExtRptFilter.14.0=0&prop.svc-hiveseq.denovoExtFirstStage.14.0=1&prop.svc-hiveseq.denovoOutFilterLength.14.0=1000&prop.svc-hiveseq.denovoMissmatchesPercentage.14.0=2&prop.svc-hiveseq.maxNumberQueryForHiveseq.25=-1&prop.svc-hiveseq.inputMode.27.0=1&prop.svc-hiveseq.isFastQFile.26.0=1&prop.svc-hiveseq.keepOriginalID.26.1=1&prop.svc-hiveseq.appendLength.26.2=1&prop.svc-hiveseq.isHiveseq.26.3=0&prop.svc-hiveseq.isRevComp.26.4=0&prop.svc-hiveseq.submitter.29=dna-hiveseq&prop.svc-hiveseq._type=svc-hiveseq&prop.svc-hiveseq.parent_proc_ids.9=3101923&prop.svc-hiveseq.action.10.0=2&prop.svc-hiveseq.isPostponed.10.3=0&prop.svc-hiveseq.reqPriority.10.7=0
+Progress report on object 573734
+Process in submision
+Progress report on object 573734
+Process Running. 42 percent complete
+Progress report on object 573734
+Process Running. 74 percent complete
+Progress report on object 573734
+DONE!
