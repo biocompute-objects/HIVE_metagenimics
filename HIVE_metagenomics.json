@@ -1,6 +1,6 @@
 {
     "bco_id": "https://github.com/biocompute-objects/HIVE_metagenomics/blob/master/HIVE_metagenomics.json",
-    "digital_signature": "45127EC1475CD105638979C066CD348FC604FCA1",
+    "checksum": "ECD541AE0F61AAAAA1FAC14B2B08ABE18F610E1AA4677D54E89B292550F5058A",
     "bco_spec_version" : "https://w3id.org/biocompute/spec/v1.2",
     "provenance_domain": {
         "name": "Healthy human fecal metagenomic diversity", 
@@ -52,7 +52,7 @@
         "scm_extension": {
             "scm_repository": "https://github.com/biocompute-objects/HIVE_metagenomics",
             "scm_type": "git",
-            "scm_branch": "e4620f642fb20557f6c679397696614305ed07b1",
+            "scm_commit": "e4620f642fb20557f6c679397696614305ed07b1",
             "scm_path": "biocompute-objects/HIVE_metagenomics",
             "scm_preview": "https://github.com/example/repo1/blob/c9ffea0b60fa3bcf8e138af7c99ca141a6b8fb21/workflow/hive-viral-mutation-detection.cwl"
       }
@@ -77,9 +77,10 @@
                 "access_time": "2016-11-30T06:46-0500"
             }
         ], 
+        "platform": ["hive"], 
         "pipeline_steps": [
             {
-                "step_number": "1",
+                "step_number": 1,
                 "name": "CensuScope", 
                 "description": "Detect taxonomic composition of a metagenomic data set.", 
                 "version": "1.3", 
@@ -87,26 +88,26 @@
                     {
                         "name": "Filtered_NT_feb18_2016", 
                         "uri": {
-                            "address": "https://hive.biochemistry.gwu.edu/genome/513957",
+                            "uri": "https://hive.biochemistry.gwu.edu/genome/513957",
                             "access_time": "2016-11-30T06:46-0500"
                         }
                     }
-				],
-                "input_uri_list": [
+                ],
+                "input_list": [
                     {
-					    "address": "https://hive.biochemistry.gwu.edu/nuc-read/545722",
-					    "access_time": "2016-11-30T06:46-0500"
-					}, 
+                        "uri": "https://hive.biochemistry.gwu.edu/nuc-read/545722",
+                        "access_time": "2016-11-30T06:46-0500"
+                    }, 
                     {
-					    "address": "https://hive.biochemistry.gwu.edu/nuc-read/545721",
-					    "access_time": "2016-11-30T06:46-0500"
-					}
+                        "uri": "https://hive.biochemistry.gwu.edu/nuc-read/545721",
+                        "access_time": "2016-11-30T06:46-0500"
+                    }
                 ], 
-                "output_uri_list": [
+                "output_list": [
                     {
-					    "address": "https://hive.biochemistry.gwu.edu/546223/dnaAccessionBasedResult.csv",
-						"access_time": "2016-11-30T06:46-0500"
-					}
+                        "uri": "https://hive.biochemistry.gwu.edu/546223/dnaAccessionBasedResult.csv",
+                        "access_time": "2016-11-30T06:46-0500"
+                    }
                 ]
             },
             {
@@ -116,46 +117,50 @@
                 "version": "1.3", 
                 "input_list": [
                     {
-                        "address": "http://example.com/data/546223/dnaAccessionBased.csv",
-						"access_time": "2016-11-30T06:46-0500"
+                        "uri": "http://example.com/data/546223/dnaAccessionBased.csv",
+                        "access_time": "2016-11-30T06:46-0500"
                     },
                     {
-					    "address": "https://hive.biochemistry.gwu.edu/nuc-read/545722",
-					    "access_time": "2016-11-30T06:46-0500"
-					}, 
+                        "uri": "https://hive.biochemistry.gwu.edu/nuc-read/545722",
+                        "access_time": "2016-11-30T06:46-0500"
+                    }, 
                     {
-					    "address": "https://hive.biochemistry.gwu.edu/nuc-read/545721",
-					    "access_time": "2016-11-30T06:46-0500"
-					}
+                        "uri": "https://hive.biochemistry.gwu.edu/nuc-read/545721",
+                        "access_time": "2016-11-30T06:46-0500"
+                    }
                 ], 
                 "output_list": [
                     {
-					    "address": "https://hive.biochemistry.gwu.edu/546232/alCount-Unalignedo524569-alCount--1.csv",
-					    "access_time": "2016-11-30T06:46-0500"
-					}
+                        "uri": "https://hive.biochemistry.gwu.edu/546232/alCount-Unalignedo524569-alCount--1.csv",
+                        "access_time": "2016-11-30T06:46-0500"
+                    }
                 ]
             }
         ]
     },
     "execution_domain": {
-        "script_access_type": "URI",
-        "script": ["https://example.com/workflows/antiviral_resistance_detection_hive.py"],
+        "script": [
+            {
+                "uri": {
+                    "uri": "https://github.com/biocompute-objects/HIVE_metagenomics/blob/master/driverHIVEmetagenomic.py"
+                }
+            }
+        ],
         "script_driver": "shell",
-        "platform": ["hive"], 
         "software_prerequisites": [
             {
                 "name": "CensuScope", 
                 "version": "albinoni.2",
                 "uri": {
-                    "address": "http://example.com/dna.cgi?cmd=dna-screening&cmdMode=-",
+                    "uri": "http://example.com/dna.cgi?cmd=dna-screening&cmdMode=-",
                     "access_time": "2017-01-24T09:40:17-0500"
                 }
             },
-			{
+            {
                 "name": "HIVE-hexagon", 
                 "version": "babajanian.1",
                 "uri": {
-                    "address": "http://example.com/dna.cgi?cmd=dna-hexagon&cmdMode=-",
+                    "uri": "http://example.com/dna.cgi?cmd=dna-hexagon&cmdMode=-",
                     "access_time": "2017-01-24T09:40:17-0500"
                 }
             }
@@ -170,66 +175,67 @@
                 "url": "http://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
             }
         ], 
-        "env_parameters": {
+        "environment_variables": {
             "key": "HOSTTYPE", 
             "value" : "x86_64-linux"
         }
     }, 
-	"parametric_domain": [
-	    {"param": "seed", "value": "14", "step": "2"},
-	    {"param":"minimum_match_len", "value": "66", "step": "2"},
-	    {"param": "divergence_threshold_percent", "value": 0.30, "step": "2"},
-	    {"param": "minimum_coverage", "value": "15", "step": "2"},
-	    {"param": "freq_cutoff", "value": 0.10, "step": "2"}
-	], 
+    "parametric_domain": [
+        {"param": "seed", "value": "14", "step": "2"},
+        {"param":"minimum_match_len", "value": "66", "step": "2"},
+        {"param": "divergence_threshold_percent", "value": "0.30", "step": "2"},
+        {"param": "minimum_coverage", "value": "15", "step": "2"},
+        {"param": "freq_cutoff", "value": "0.10", "step": "2"}
+    ], 
     "io_domain": {
         "input_subdomain": [
-            {
-                "name": "Hepatitis C virus genotype 1", 
+            { 
                 "uri": {
-                    "address": "http://www.ncbi.nlm.nih.gov/nuccore/22129792",
+                    "filename": "Hepatitis C virus genotype 1",
+                    "uri": "http://www.ncbi.nlm.nih.gov/nuccore/22129792",
                     "access_time": "2017-01-24T09:40:17-0500"
                 }
             }, 
             {
-                "name": "Hepatitis C virus type 1b complete genome", 
                 "uri": {
-                    "address": "http://www.ncbi.nlm.nih.gov/nuccore/5420376",
+                    "filename": "Hepatitis C virus type 1b complete genome", 
+                    "uri": "http://www.ncbi.nlm.nih.gov/nuccore/5420376",
                     "access_time": "2017-01-24T09:40:17-0500"
                 }
             }, 
             {
-                "name": "Hepatitis C virus (isolate JFH-1) genomic RNA", 
                 "uri": {
-                    "address": "http://www.ncbi.nlm.nih.gov/nuccore/13122261",
+                    "filename": "Hepatitis C virus (isolate JFH-1) genomic RNA", 
+                    "uri": "http://www.ncbi.nlm.nih.gov/nuccore/13122261",
                     "access_time": "2017-01-24T09:40:17-0500"
                 }
             }, 
             {
-                "name": "Hepatitis C virus clone J8CF, complete genome", 
                 "uri": {
-                    "address": "http://www.ncbi.nlm.nih.gov/nuccore/386646758",
+                    "filename": "Hepatitis C virus clone J8CF, complete genome", 
+                    "uri": "http://www.ncbi.nlm.nih.gov/nuccore/386646758",
                     "access_time": "2017-01-24T09:40:17-0500"
                 }
             }, 
             {
-                "name": "Hepatitis C virus S52 polyprotein gene", 
                 "uri": {
-                    "address": "http://www.ncbi.nlm.nih.gov/nuccore/295311559",
+                    "filename": "Hepatitis C virus S52 polyprotein gene", 
+                    "uri": "http://www.ncbi.nlm.nih.gov/nuccore/295311559",
                     "access_time": "2017-01-24T09:40:17-0500"
                 }
             },
             {
-                "name": "HCV1a_drug_resistant_sample0001-01", 
                 "uri": {
-                    "address": "http://example.com/nuc-read/514682",
+                    "filename": "HCV1a_drug_resistant_sample0001-01", 
+                    "uri": "http://example.com/nuc-read/514682",
                     "access_time": "2017-01-24T09:40:17-0500"
                 }
             }, 
             {
-                "name": "HCV1a_drug_resistant_sample0001-02", 
+
                 "uri": {
-                    "address": "http://example.com/nuc-read/514683",
+                    "filename": "HCV1a_drug_resistant_sample0001-02", 
+                    "uri": "http://example.com/nuc-read/514683",
                     "access_time": "2017-01-24T09:40:17-0500"
                 }
             }
@@ -238,14 +244,14 @@
             {
                 "mediatype": "text/csv", 
                 "uri": { 
-                    "address": "http://example.com/data/514769/dnaAccessionBased.csv",
+                    "uri": "http://example.com/data/514769/dnaAccessionBased.csv",
                     "access_time": "2017-01-24T09:40:17-0500"
                 }
             },
             {
                 "mediatype": "text/csv", 
                 "uri": {
-                    "address": "http://example.com/data/514801/SNPProfile*.csv",
+                    "uri": "http://example.com/data/514801/SNPProfile*.csv",
                     "access_time": "2017-01-24T09:40:17-0500"
                 }
             }
